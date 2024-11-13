@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm an associate research scientist in Texas A&M Univerisity. 
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I apply quantitative methods to analyze the environmental and economic impacts of climate change, energy transitions, and agricultural productivity.
         
         Please reach out to collaborate 😃
     design:
