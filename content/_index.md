@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research primarily centers on **energy and environmental economics**, **agricultural economics**, and **climate change economics**, with a particular emphasis on developing sustainable systems for **energy** and **agriculture**. I focus on understanding the economic and policy-driven mechanisms that underpin **climate change economics**, **energy transitions**, and **sustainable agricultural practices**. By employing advanced quantitative modeling techniques such as mathematical programming-based optimization models and econometric analysis, I analyze the economic feasibility and environmental impact of various energy systems, agricultural practices, and mitigation strategies.
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
