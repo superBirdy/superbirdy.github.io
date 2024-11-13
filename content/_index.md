@@ -34,10 +34,8 @@ sections:
     content:
       title: '📚 My Research'
       subtitle: ''
-      text: |
-My research primarily centers on **energy and environmental economics**, **agricultural economics**, and **climate change economics**, with a particular emphasis on developing sustainable systems for **energy** and **agriculture**. I focus on understanding the economic and policy-driven mechanisms that underpin **climate change economics**, **energy transitions**, and **sustainable agricultural practices**. By employing advanced quantitative modeling techniques such as mathematical programming-based optimization models and econometric analysis, I analyze the economic feasibility and environmental impact of various energy systems, agricultural practices, and mitigation strategies.
+      text: |-
 
-In addition to modeling and policy analysis, I apply **life cycle assessment (LCA)** and **techno-economic analysis (TEA)** methodologies to evaluate the full environmental and economic costs of emerging technologies and practices. These assessments help identify opportunities for improving sustainability, reducing greenhouse gas emissions, and enhancing resilience to climate impacts.
 
     design:
       columns: '1'
