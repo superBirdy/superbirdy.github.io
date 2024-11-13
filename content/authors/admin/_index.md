@@ -85,6 +85,14 @@ skills:
         description: ''
         percent: 90
         icon: code-bracket
+      - name: R
+        description: ''
+        percent: 90
+        icon: code-bracket
+      - name: GAMS
+        description: ''
+        percent: 90
+        icon: code-bracket
       - name: Data Science
         description: ''
         percent: 100
@@ -108,7 +116,7 @@ skills:
       - name: Basketball
         description: ''
         percent: 80
-        icon: camera
+        icon: person-simple-walk
 
 languages:
   - name: English
@@ -124,6 +132,6 @@ languages:
 
 ## About Me
 
-Howdy~I’m an associate research scientist of Agricultural Economics at Texas A&M University. I apply quantitative methods to analyze the environmental and economic impacts of **climate change**, **energy transitions**, and **agricultural productivity**.
+Howdy~I’m an **associate research scientist** of Agricultural Economics at Texas A&M University. I apply quantitative methods to analyze the environmental and economic impacts of **climate change**, **energy transitions**, and **agricultural productivity**.
 
 Please reach out to collaborate 😃
