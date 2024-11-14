@@ -14,6 +14,10 @@ sections:
       title: '📕My Research📕'
       subtitle: ''
       text: Here are the recent projects I'm working on~~~
+
+      1.
+    
+      2. 
     design:
       columns: '1'
 ---
