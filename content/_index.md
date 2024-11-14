@@ -21,12 +21,12 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
+        color: white
         image:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0
+            brightness: 0.0
           size: cover
           position: center
           parallax: false
@@ -35,12 +35,15 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
+    <div style="text-align: justify;">
         My research primarily centers on **energy and environmental economics**, **agricultural economics**, and **climate change economics**, with a particular emphasis on developing sustainable systems for **energy** and **agriculture**. I focus on understanding the economic and policy-driven mechanisms that underpin **climate change economics**, **energy transitions**, and **sustainable agricultural practices**. By employing advanced quantitative modeling techniques such as mathematical programming-based optimization models and econometric analysis, I analyze the economic feasibility and environmental impact of various energy systems, agricultural practices, and mitigation strategies.
     
         In addition to modeling and policy analysis, I apply **life cycle assessment (LCA)** and **techno-economic analysis (TEA)** methodologies to evaluate the full environmental and economic costs of emerging technologies and practices. These assessments help identify opportunities for improving sustainability, reducing greenhouse gas emissions, and enhancing resilience to climate impacts.
 
+    </div>
     design:
       columns: '1'
+    
  # - block: collection
  #   id: papers
  #   content:
