@@ -11,39 +11,33 @@ design:
 sections:
   - block: Markdown
     content:
-      title: 'Hurricane & Oil Industry'
+      title: '🚗Hurricane & Oil Industry🚗'
       subtitle: ''
       text: |-
-        1.**afdaasf**
-    
-        2.**fasdfsa**
-    design:
-      columns: '1'
-    
+        1.**Regional Refinery Activities and Economic Impacts Due to Hurricane’s Landfalls in the Gulf Coast Region**
+        2.**The Economic Impacts of HurricaneForecast on the U.S. Gulf Coast Petroleum Refineries**
+        3.**The Economic Impact of Hurricane Forecast Inaccuracy on Gulf Coast Petroleum Refineries**
+
   - block: Markdown
     content:
-      title: '🔋 Energy Transition and Sustainability 🔋'
+      title: '🔋Energy Transition and Sustainability🔋'
       subtitle: ''
       text: |-
-         These projects focus on the economic and environmental impacts of the global energy transition:
+         These projects focus on the environmental and economic assessment of emerging technologies on bioenergy:
       
-         1. **Renewable Energy Systems**: Modeling the integration of renewable energy into national grids and its effects on energy markets.
-         2. **Decarbonization Strategies**: Analyzing policies and technologies that facilitate the transition to a low-carbon economy.
+         1. **Bioenergy and Bioproducts**: Designing supply chains and modeling the market response of low-carbon bioproducts entry.
+         2. **Decarbonization Strategies**: Direct Air Capture Technologies (DAC) and Bioenergy with Carbon Capture and Storage (BECCS).
 
-    design:
-      columns: '1'
   - block: Markdown
     content:
-      title: '🌱 Sustainable Agriculture Projects 🌱'
+      title: '🌱 Climate Change Impacts on Agricultural Productivity 🌱'
       subtitle: ''
       text: |-
-          These projects explore innovative solutions for sustainable agriculture:
+          These projects explore the key climate factors impacts on crops & livestocks:
       
-          1. **Agri-Tech Innovations**: Researching new farming technologies that enhance productivity while reducing environmental impacts.
-          2. **Climate Resilient Crops**: Studying the development of crops that can withstand climate variability and extreme weather events.
+          1. **Global Climate Change Hub** (on going)
+          2. **Climate Change Impacts on Honey bee loss rate and polination market**
 
-    design:
-      columns: '1'
 ---
 
 
