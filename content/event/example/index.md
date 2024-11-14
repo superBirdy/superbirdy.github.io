@@ -27,7 +27,7 @@ all_day: false
 authors:
   - admin
 
-tags: [electricity] [demand] [forecasting]
+tags: [electricity,demand,forecasting]
 
 # Is this a featured talk? (true/false)
 featured: false
