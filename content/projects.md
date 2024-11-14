@@ -9,18 +9,18 @@ design:
 
 # Page sections
 sections:
-  - block: collection
+  - block: Markedown
     content:
-      title: Selected Projects
+      title: '📕My Research📕'
+      subtitle: ''
       text: Here are the recent projects I'm working on~~~
-      filters:
-        folders:
-          - project
 ---
-## [Texas A&M University](https://agecon.tamu.edu) 
+## Project Title
 
-## [Texas A&M University](https://agecon.tamu.edu) 
+### Abstract
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-## [Texas A&M University](https://agecon.tamu.edu) 
-
-## [Texas A&M University](https://agecon.tamu.edu) 
+### Tags
+- Tag1
+- Tag2
+- Tag3
