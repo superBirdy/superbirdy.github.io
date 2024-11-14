@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Section spacing
-  spacing: '6rem'
+  spacing: '4rem'
 
 # Page sections
 sections:
@@ -31,10 +31,10 @@ sections:
 
   - block: Markdown
     content:
-      title: '🌱 Climate Change Impacts on Agricultural Productivity 🌱'
+      title: '🌱Climate Change Impacts on Agricultural Productivity🌱'
       subtitle: ''
       text: |-
-          These projects explore the key climate factors impacts on crops & livestocks:
+          These projects explore the climate impacts on crops & livestocks:
       
           1. **Global Climate Change Hub** (on going)
           2. **Climate Change Impacts on Honey bee loss rate and polination market**
