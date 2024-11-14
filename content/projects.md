@@ -15,9 +15,8 @@ sections:
       subtitle: ''
       text: Here are the recent projects I'm working on~~~
 
-      1.
-    
-      2. 
+        1.**afdaasf**
+        2. **fasdfsa **
     design:
       columns: '1'
 ---
