@@ -14,10 +14,7 @@ sections:
       title: '📕My Research📕'
       subtitle: ''
       text: Here are the recent projects I'm working on~~~
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 3
+
 ---
 ## Hurricane Trilogy
 
