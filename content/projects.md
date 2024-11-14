@@ -16,9 +16,11 @@ sections:
       text: |-
         Three research papers in the field of energy and climate economics:
     
-        1.**Regional Refinery Activities and Economic Impacts Due to Hurricane’s Landfalls in the Gulf Coast Region**
-        2.**The Economic Impacts of HurricaneForecast on the U.S. Gulf Coast Petroleum Refineries**
-        3.**The Economic Impact of Hurricane Forecast Inaccuracy on Gulf Coast Petroleum Refineries**
+        1.Regional Refinery Activities and Economic Impacts Due to Hurricane’s Landfalls in the Gulf Coast Region
+    
+        2.The Economic Impacts of HurricaneForecast on the U.S. Gulf Coast Petroleum Refineries
+    
+        3.The Economic Impact of Hurricane Forecast Inaccuracy on Gulf Coast Petroleum Refineries
 
   - block: Markdown
     content:
