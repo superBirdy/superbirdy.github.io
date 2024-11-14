@@ -11,11 +11,12 @@ design:
 sections:
   - block: Markdown
     content:
-      title: '📕My Research📕'
+      title: '📕Hurricane & Oil Industry📕'
       subtitle: ''
-      text: Here are the recent projects I'm working on~~~
+      text: |-
 
         1.**afdaasf**
+    
         2. **fasdfsa **
     design:
       columns: '1'
