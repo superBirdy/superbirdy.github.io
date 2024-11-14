@@ -13,5 +13,5 @@ tags:
 ## [Texas A&M University](https://agecon.tamu.edu) 
 Lab Instructor for **AGEC 641: Applied Mathematical Programming (Ph.D. level course) (Spring 2023)**
 
-##  Energy Institute, Texas A&M University & King Abdullah Petroleum Studies and Research Center (KAPSARC), Riyadh, Saudi Arabia
+##  [Energy Institute, Texas A&M University](https://energy.tamu.edu/) & [King Abdullah Petroleum Studies and Research Center (KAPSARC), Riyadh, Saudi Arabia](https://www.kapsarc.org/)
 Instructor and Teaching Assistant for **Energy, Policy and Environment**
