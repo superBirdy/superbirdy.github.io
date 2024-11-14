@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Section spacing
-  spacing: '5rem'
+  spacing: '6rem'
 
 # Page sections
 sections:
@@ -16,8 +16,21 @@ sections:
       filters:
         folders:
           - project
+- block: markdown
+    content:
+      title: '📚 My Research'
+      subtitle: ''
+      text: |-
+        daf
     design:
-      view: article-grid
-      fill_image: false
-      columns: 3
+      columns: '2'
+- block: markdown
+    content:
+      title: '📚 My Research'
+      subtitle: ''
+      text: |-
+        daferwq
+    design:
+      columns: '2'
+
 ---
