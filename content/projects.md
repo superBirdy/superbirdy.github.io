@@ -40,7 +40,7 @@ sections:
           These projects explore the climate impacts on crops & livestocks:
       
           1. **Global Climate Change Hub** (on going)
-          2. **Climate Change Impacts on Honey bee loss rate and polination market**
+          2. **Climate Change Impacts on Honey bee loss rate and pollination market**
 
 ---
 
