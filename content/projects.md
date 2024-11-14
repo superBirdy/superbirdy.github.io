@@ -9,7 +9,7 @@ design:
 
 # Page sections
 sections:
-  - block: Markedown
+  - block: Markdown
     content:
       title: '📕My Research📕'
       subtitle: ''
