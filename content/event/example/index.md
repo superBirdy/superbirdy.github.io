@@ -1,5 +1,5 @@
 ---
-title: Forecasting National Level Electricity Mix Based on Planned Installed Capacity: A Machine Learning and Multinomial Logit Modeling Approach
+title: Recent Talk
 
 event: 41th USAEE Conference
 event_url: [https://www.lsu.edu/ces/conferences/usaee2024/]
@@ -17,7 +17,7 @@ abstract: 'National level electricity generation is difficult to forecast due to
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-11-03T13:00:00Z'
+date: '2024-11-04T13:00:00Z'
 date_end: '2024-11-06T15:00:00Z'
 all_day: false
 
