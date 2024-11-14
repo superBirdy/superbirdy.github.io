@@ -11,9 +11,10 @@ design:
 sections:
   - block: Markdown
     content:
-      title: '🚗Hurricane & Oil Industry🚗'
+      title: '🚗Hurricane & Oil Industry'
       subtitle: ''
       text: |-
+        Three research papers in the field of energy and climate economics:
     
         1.**Regional Refinery Activities and Economic Impacts Due to Hurricane’s Landfalls in the Gulf Coast Region**
         2.**The Economic Impacts of HurricaneForecast on the U.S. Gulf Coast Petroleum Refineries**
@@ -21,7 +22,7 @@ sections:
 
   - block: Markdown
     content:
-      title: '🔋Energy Transition and Sustainability🔋'
+      title: '🔋Energy Transition and Sustainability'
       subtitle: ''
       text: |-
          These projects focus on the environmental and economic assessment of emerging technologies on bioenergy:
@@ -31,7 +32,7 @@ sections:
 
   - block: Markdown
     content:
-      title: '🌱Climate Change Impacts on Agricultural Productivity🌱'
+      title: '🌱Climate Change Impacts on Agricultural Productivity'
       subtitle: ''
       text: |-
           These projects explore the climate impacts on crops & livestocks:
