@@ -1,5 +1,5 @@
 ---
-title: Recent Talk
+title: Forecasting National Level Electricity Mix Based on Planned Installed Capacity: A Machine Learning and Multinomial Logit Modeling Approach
 
 event: 41th USAEE Conference
 event_url: [https://www.lsu.edu/ces/conferences/usaee2024/]
@@ -27,7 +27,7 @@ all_day: false
 authors:
   - admin
 
-tags: [electricity]
+tags: [electricity] [demand] [forecasting]
 
 # Is this a featured talk? (true/false)
 featured: false
