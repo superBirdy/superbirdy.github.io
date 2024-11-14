@@ -16,21 +16,4 @@ sections:
       filters:
         folders:
           - project
-- block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        daf
-    design:
-      columns: '2'
-- block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        daferwq
-    design:
-      columns: '2'
-
 ---
