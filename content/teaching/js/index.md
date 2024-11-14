@@ -12,12 +12,14 @@ tags:
 
 ## [Texas A&M University](https://agecon.tamu.edu) 
 Lab Instructor for **AGEC 641: Applied Mathematical Programming (Ph.D. level course) (Spring 2023)**
+
 ■	Basic logic of GAMS optimization language
 
 ■	Applications of using GAMS to solve optimization problems
 
 ## [Energy Institute, Texas A&M University](https://energy.tamu.edu/) & [King Abdullah Petroleum Studies and Research Center (KAPSARC), Riyadh, Saudi Arabia](https://www.kapsarc.org/)
 Instructor and Teaching Assistant for **Energy, Policy and Environment**
+
 ■	Coordinated with Dr. McCarl to design the course structure and syllabus
 
 ■	Lectured on the topics of
