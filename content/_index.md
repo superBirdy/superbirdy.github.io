@@ -21,12 +21,12 @@ sections:
     design:
       css_class: dark
       background:
-        color: white
+        color: blue
         image:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 0.6
+            brightness: 0.3
           size: cover
           position: center
           parallax: false
