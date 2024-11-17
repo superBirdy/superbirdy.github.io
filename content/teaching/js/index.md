@@ -1,11 +1,11 @@
 ---
-title: Lecturer
+title: Instructor
 #summary: 
 date: 2024-11-12
 type: docs
 math: false
 tags:
-  - lecturer
+  - Instructor
 #image:
 #  caption: 'Embed rich media such as videos and LaTeX math'
 ---
@@ -26,7 +26,7 @@ Instructor and Teaching Assistant for **Energy, Policy and Environment**
 
        • Energy impacts on the environment
        
-       • Environmental impact on energy
+       • Environmental impacts on energy
        
        • Air pollution, energy, and air quality
        
