@@ -17,7 +17,7 @@ sections:
       text: |-
         My research focuses on **energy and environmental economics**, **agricultural economics**, and **climate change economics**, with an emphasis on sustainable energy and agriculture systems. I analyze the economic and policy drivers behind energy transitions and sustainable agriculture using advanced quantitative models and econometric analysis to assess the economic feasibility and environmental impact of various solutions.
 
-        In addition to modeling and policy analysis, I apply **life cycle assessment (LCA)** and **techno-economic analysis (TEA)** methodologies to evaluate the environmental and economic costs of emerging technologies and practices. These assessments help identify opportunities for improving sustainability, reducing greenhouse gas emissions, and enhancing resilience to climate impacts
+        In addition to modeling and policy analysis, I apply **life cycle assessment (LCA)** and **techno-economic analysis (TEA)** methodologies to evaluate the environmental and economic costs of emerging technologies and practices. These assessments help identify opportunities for improving sustainability, reducing greenhouse gas emissions, and enhancing resilience to climate impacts.
   - block: Markdown
     content:
       title: '🚗Hurricane & Oil Industry'
