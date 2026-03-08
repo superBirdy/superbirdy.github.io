@@ -135,12 +135,8 @@ languages:
 ## About Me
 
 
-I am an **applied agricultural and environmental economist** and **Associate Research Scientist** at Texas A&M University. My research examines how **climate shocks, environmental change, and technological innovation affect agricultural and energy systems**.
+I am an **applied agricultural and environmental economist** and **Associate Research Scientist** in the Department of Agricultural Economics at **Texas A&M University**. My research examines how **climate shocks, environmental change, and technological innovation affect agricultural and energy systems**, with the goal of improving the resilience and sustainability of economic systems under climate stress.
 
-My work combines **applied econometrics, optimization modeling, and integrated environmental–economic assessment** to analyze climate risks and evaluate the economic and environmental performance of emerging technologies. I frequently integrate **techno-economic analysis (TEA)** and **life cycle assessment (LCA)** to study the market feasibility and sustainability of low-carbon technologies and bio-based production systems.
+My work combines **applied econometrics, optimization modeling, and integrated environmental–economic assessment** to analyze how environmental risks propagate through markets and supply chains. I study how climate variability, extreme events, and technological transitions influence production systems, resource use, and market outcomes.
 
-My research has been published in journals including **Nature Communications, Environmental Research Letters, ACS Sustainable Chemistry & Engineering, Joule, and Fuel**.
-
-I received my **Ph.D. in Agricultural Economics from Texas A&M University** in 2024.
-
-I welcome collaborations related to **climate impacts, agricultural systems, and low-carbon technologies**.
+My research agenda focuses on two main areas: **(1) climate shocks and economic resilience in agricultural and energy systems, and (2) economic evaluation of emerging low-carbon technologies and sustainable production systems.**
