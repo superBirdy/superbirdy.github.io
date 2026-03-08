@@ -46,12 +46,14 @@ profiles:
     url: https://orcid.org/0000-0002-2157-2652
 
 interests:
-  - Energy and Envrionmental Economics
-  - Climate Change Economics
-  - Agricultural Economics
-  - Life Cycle Assessment
-  - Techno-economic Analysis
-  - Mathmatical Programming
+  - Agricultural and Environmental Economics
+  - Climate Change Impacts on Agriculture
+  - Energy and Environmental Policy
+  - Climate Risk and Economic Resilience
+  - Low-Carbon Technologies and Bioeconomy
+  - Agricultural and Energy Market Modeling
+  - Applied Econometrics
+  - Techno-Economic and Life Cycle Assessment
 
 education:
   - area: PhD Agricultural Economics
@@ -132,6 +134,13 @@ languages:
 
 ## About Me
 
-Howdy~I’m an **associate research scientist** of Agricultural Economics at Texas A&M University. I apply quantitative methods to analyze the environmental and economic impacts of **climate change**, **energy transitions**, and **agricultural productivity**.
 
-Please reach out to collaborate 😃
+I am an **applied agricultural and environmental economist** and **Associate Research Scientist** at Texas A&M University. My research examines how **climate shocks, environmental change, and technological innovation affect agricultural and energy systems**.
+
+My work combines **applied econometrics, optimization modeling, and integrated environmental–economic assessment** to analyze climate risks and evaluate the economic and environmental performance of emerging technologies. I frequently integrate **techno-economic analysis (TEA)** and **life cycle assessment (LCA)** to study the market feasibility and sustainability of low-carbon technologies and bio-based production systems.
+
+My research has been published in journals including **Nature Communications, Environmental Research Letters, ACS Sustainable Chemistry & Engineering, Joule, and Fuel**.
+
+I received my **Ph.D. in Agricultural Economics from Texas A&M University** in 2024.
+
+I welcome collaborations related to **climate impacts, agricultural systems, and low-carbon technologies**.
