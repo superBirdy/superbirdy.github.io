@@ -4,51 +4,49 @@ date: 2024-05-19
 type: landing
 
 design:
-  # Section spacing
   spacing: '2rem'
 
-# Page sections
-
 sections:
+
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: '📚 Research Overview'
       text: |-
-        My research focuses on **energy and environmental economics**, **agricultural economics**, and **climate change economics**, with an emphasis on sustainable energy and agriculture systems. I analyze the economic and policy drivers behind energy transitions and sustainable agriculture using advanced quantitative models and econometric analysis to assess the economic feasibility and environmental impact of various solutions.
+        My research lies at the intersection of **agricultural economics, energy economics, and environmental economics**, with a focus on how climate shocks and technological transitions affect economic systems. 
 
-        In addition to modeling and policy analysis, I apply **life cycle assessment (LCA)** and **techno-economic analysis (TEA)** methodologies to evaluate the environmental and economic costs of emerging technologies and practices. These assessments help identify opportunities for improving sustainability, reducing greenhouse gas emissions, and enhancing resilience to climate impacts.
-  - block: Markdown
+        I combine **applied econometrics, optimization modeling, and integrated environmental–economic assessment** to analyze how environmental shocks and emerging technologies reshape agricultural and energy markets. My work also integrates **life cycle assessment (LCA)** and **techno-economic analysis (TEA)** to evaluate the economic feasibility and environmental impacts of low-carbon technologies.
+
+        My research agenda centers on two main areas:
+
+        1. **Climate Shocks and Economic Resilience**
+        2. **Low-Carbon Transitions and Technology Adoption**
+
+  - block: markdown
     content:
-      title: '🚗Hurricane & Oil Industry'
-      subtitle: ''
+      title: '🌪️ Climate Shocks and Resilience'
       text: |-
-        Three research papers in the field of energy and climate economics:
-    
-         1. Regional Refinery Activities and Economic Impacts Due to Hurricane’s Landfalls in the Gulf Coast Region
-    
-         2. The Economic Impacts of Hurricane Forecast on the U.S. Gulf Coast Petroleum Refineries
-    
-         3. The Economic Impact of Hurricane Forecast Inaccuracy on Gulf Coast Petroleum Refineries
-  - block: Markdown
+        This research examines how **extreme weather events, climate variability, and ecological changes** affect agricultural and energy systems.
+
+        My work focuses on understanding how environmental shocks propagate through markets and supply chains, and how economic systems adapt to these disruptions. I apply **econometric modeling, sector-level simulation models, and large-scale climate datasets** to quantify these impacts.
+
+        Representative projects include:
+
+        - **Forest-loss-driven ecoclimate teleconnections and U.S. agricultural productivity**
+        - **Economic impacts of hurricane landfalls and forecast uncertainty on Gulf Coast refineries**
+        - **Climate change impacts on honey bee loss rates and pollination markets**
+        - **Climate change and structural shifts in U.S. livestock systems**
+
+  - block: markdown
     content:
-      title: '🔋Energy Transition and Sustainability'
-      subtitle: ''
+      title: '⚡ Low-Carbon Transitions and Technology Adoption'
       text: |-
-         These projects focus on the environmental and economic assessment of emerging technologies on bioenergy:
-      
-         1. **Bioenergy and Bioproducts**: Designing supply chains and modeling the market response of low-carbon bioproducts entry.
-         2. **Decarbonization Strategies**: Direct Air Capture Technologies (DAC) and Bioenergy with Carbon Capture and Storage (BECCS).
-  - block: Markdown
-    content:
-      title: '🌱Climate Change Impacts on Agricultural Productivity'
-      subtitle: ''
-      text: |-
-          These projects explore the climate impacts on crops & livestocks:
-      
-          1. **Global Climate Change Hub** (on going)
-          2. **Climate change impacts on honey bee loss rate and pollination market**
+        The second stream of my research evaluates the **economic and environmental performance of emerging low-carbon technologies and bio-based production systems**.
 
----
+        I develop integrated **techno-economic analysis (TEA) and life cycle assessment (LCA)** frameworks to assess the market viability, environmental impacts, and supply chain implications of new technologies.
 
+        Current research projects include:
 
+        - **Electro-biomanufacturing systems for producing sustainable fuels and chemicals**
+        - **Algae-based carbon capture and utilization systems**
+        - **Biorefinery design and waste-to-bioproduct conversion pathways**
+        - **Carbon markets and policy incentives for low-carbon fuels and materials**
