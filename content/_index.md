@@ -14,6 +14,9 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+      button:
+        text: Download CV
+        url: uploads/CV.pdf
       text: ""
       # Show a call-to-action button under your biography? (optional)
     design:
@@ -28,6 +31,8 @@ sections:
           size: cover
           position: center
           parallax: false
+
+    
 
     
  # - block: collection
