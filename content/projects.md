@@ -25,7 +25,7 @@ sections:
 
         **2. Technology Adoption, Environmental Impacts, and Low-Carbon Transitions**
 
-
+    
   - block: markdown
     content:
       title: "Climate Risks and Economic Resilience"
@@ -41,7 +41,7 @@ sections:
         - **Climate variability and honey bee loss rates in pollination markets**
         - **Environmental stress and structural shifts in U.S. livestock systems**
 
-
+    
   - block: markdown
     content:
       title: "Technology Adoption, Environmental Impacts, and Low-Carbon Transitions"
@@ -58,5 +58,6 @@ sections:
         - **Algae-based carbon capture and utilization systems**
         - **Integrated biorefinery design and waste-to-bioproduct pathways**
         - **Carbon markets and policy incentives for low-carbon fuels and materials**
+
 
 ---
