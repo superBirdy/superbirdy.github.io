@@ -20,6 +20,7 @@ body {
 }
 
 /* Improve side spacing */
+
 .main-content {
     padding-left: 32px;
     padding-right: 32px;
@@ -54,6 +55,21 @@ h3 {
 p {
     margin-bottom: 1.25em;
     max-width: 760px;
+    text-align: justify;
+}
+
+/* -------------------------
+   About/Bio Section Typography
+------------------------- */
+
+.about-section p {
+    font-size: 21px;
+    line-height: 1.8;
+    max-width: 780px;
+}
+
+.about-section p:first-of-type {
+    font-size: 22px;
 }
 
 /* -------------------------
@@ -87,14 +103,6 @@ ul li {
 }
 
 /* -------------------------
-   About Section Width
-------------------------- */
-
-.about-section p {
-    max-width: 760px;
-}
-
-/* -------------------------
    Dark Mode Readability
 ------------------------- */
 
@@ -102,18 +110,14 @@ body.dark {
     color: #e6e6e6;
 }
 
-    /* Slightly softer contrast */
-    body.dark p {
-        color: #d4d4d4;
-    }
-
-
-/* Paragraph justified alignment */
-p {
-    text-align: justify;
+body.dark p {
+    color: #d4d4d4;
 }
 
-/* Left-align markdown block titles */
+/* -------------------------
+   Fix markdown titles alignment
+------------------------- */
+
 .block-markdown h2 {
     text-align: left;
 }
