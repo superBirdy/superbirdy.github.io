@@ -22,7 +22,7 @@ sections:
         **Energy Institute, Texas A&M University
         & King Abdullah Petroleum Studies and Research Center (KAPSARC), Riyadh, Saudi Arabia**
 
-         - **Energy, Policy and Environment**
+         - **Energy, Policy and Environment**<br>
             Instructor and Teaching Assistant 2023
 
   - block: markdown
