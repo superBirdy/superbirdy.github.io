@@ -1,9 +1,10 @@
-/* -------------------------
+/* =====================================================
    Global Typography
-------------------------- */
+===================================================== */
 
 body {
-    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 19px;
     line-height: 1.75;
     letter-spacing: 0.01em;
@@ -11,18 +12,31 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* -------------------------
-   Content Width
-------------------------- */
+
+/* =====================================================
+   Page Width
+===================================================== */
+
+/* Wider site container */
 
 .container {
+    max-width: 1400px;
+}
+
+/* Landing page sections (Research page) */
+
+.home-section .section-inner {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Article pages */
+
+.article-container {
     max-width: 1200px;
 }
 
-/* For markdown blocks like research text */
-.article-container {
-  max-width: 1300px;
-}
 
 /* Improve side spacing */
 
@@ -31,9 +45,10 @@ body {
     padding-right: 32px;
 }
 
-/* -------------------------
+
+/* =====================================================
    Headings
-------------------------- */
+===================================================== */
 
 h1 {
     font-size: 40px;
@@ -53,49 +68,55 @@ h3 {
     margin-top: 1.4em;
 }
 
-/* -------------------------
+
+/* =====================================================
    Paragraph Readability
-------------------------- */
+===================================================== */
 
 p {
     margin-bottom: 1.25em;
+    max-width: 1050px;
     text-align: justify;
 }
 
-/* -------------------------
-   About/Bio Section Typography
-------------------------- */
+
+/* =====================================================
+   About / Bio Section
+===================================================== */
 
 .about-section p {
     font-size: 21px;
     line-height: 1.8;
-    max-width: 1100px;
+    max-width: 780px;
 }
 
 .about-section p:first-of-type {
     font-size: 22px;
 }
 
-/* -------------------------
-   Lists (Research Interests)
-------------------------- */
+
+/* =====================================================
+   Lists
+===================================================== */
 
 ul li {
     margin-bottom: 8px;
     line-height: 1.6;
 }
 
-/* -------------------------
+
+/* =====================================================
    Navigation Bar
-------------------------- */
+===================================================== */
 
 .navbar {
     font-size: 18px;
 }
 
-/* -------------------------
+
+/* =====================================================
    Profile Section
-------------------------- */
+===================================================== */
 
 .author-card .title {
     font-size: 34px;
@@ -106,9 +127,10 @@ ul li {
     font-size: 18px;
 }
 
-/* -------------------------
+
+/* =====================================================
    Dark Mode Readability
-------------------------- */
+===================================================== */
 
 body.dark {
     color: #e6e6e6;
@@ -118,21 +140,11 @@ body.dark p {
     color: #d4d4d4;
 }
 
-/* -------------------------
-   Fix markdown titles alignment
-------------------------- */
+
+/* =====================================================
+   Markdown Titles Alignment
+===================================================== */
 
 .block-markdown h2 {
     text-align: left;
-}
-/* =========================
-   Widen Research Page
-========================= */
-
-.home-section .section-inner {
-  max-width: 1300px !important;
-}
-
-.home-section .container {
-  max-width: 1400px !important;
 }
