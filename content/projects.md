@@ -1,7 +1,7 @@
 ---
 title: 'Projects'
 date: 2024-05-19
-type: page
+type: landing
 
 design:
   spacing: '2rem'
