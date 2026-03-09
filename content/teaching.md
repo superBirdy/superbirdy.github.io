@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-date: 2024-05-19
+date: 2026-03-09
 type: landing
 
 design:
@@ -17,7 +17,7 @@ sections:
         ### Texas A&M University
 
         **AGEC 641: Applied Mathematical Programming (Ph.D. level)**  
-        Lab Instructor — Spring 2023
+        Lab Instructor â€” Spring 2023
 
         Topics covered:
 
@@ -54,3 +54,4 @@ sections:
 
         - **AGEC 621: Econometrics for Agribusiness (Master's level)**  
           Fall 2021
+---
