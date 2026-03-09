@@ -179,18 +179,18 @@ body.dark p {
     text-align: center;
 }
 
-/* =====================================
-   Widen About section layout
-===================================== */
+/* ===============================
+   Widen homepage biography text
+================================ */
 
-.wg-about .about-container {
-  max-width: 1400px;
-}
-
-.wg-about .row {
-  max-width: 1400px;
-}
-
-.wg-about .max-w-prose {
+.resume-biography .max-w-prose,
+.resume-biography-3 .max-w-prose {
   max-width: 1100px !important;
+}
+
+/* optional: increase font size */
+.resume-biography p,
+.resume-biography-3 p {
+  font-size: 20px;
+  line-height: 1.8;
 }
