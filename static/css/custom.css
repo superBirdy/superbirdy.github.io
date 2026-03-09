@@ -148,3 +148,18 @@ body.dark p {
 .block-markdown h2 {
     text-align: left;
 }
+/* =====================================
+   Override HugoBlox text width
+===================================== */
+
+.max-w-prose {
+  max-width: 1100px !important;
+}
+
+.prose {
+  max-width: 1100px !important;
+}
+
+.home-section .prose {
+  max-width: 1100px !important;
+}
