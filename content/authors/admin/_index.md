@@ -113,7 +113,7 @@ My research agenda focuses on two main areas: **(1) climate shocks and economic 
 ## Research Interests
 
   - Climate Change Impacts on Agriculture
-  - Agricultural and energy market modeling
+  - Agricultural and Energy Market Modeling
   - Climate Risk and Economic Resilience
   - Low-Carbon Technologies and Bioeconomy
   - Applied Econometrics
