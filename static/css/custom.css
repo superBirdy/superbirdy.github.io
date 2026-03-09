@@ -144,18 +144,10 @@ body.dark p {
    HugoBlox Layout Fixes
 ===================================== */
 
-/* widen prose text */
-.max-w-prose,
-.prose {
-  max-width: 1100px !important;
+/* widen prose text container */
+.max-w-prose {
+  max-width: 1200px !important;
 }
-
-/* keep markdown content left aligned */
-.home-section .prose {
-  text-align: left;
-}
-
-/* Fix list indentation in landing markdown blocks */
 
 /* keep markdown content left aligned */
 .home-section .prose {
@@ -174,21 +166,9 @@ body.dark p {
   padding-left: 0 !important;
 }
 
-
-/* =====================================
-   Fix HugoBlox markdown titles alignment
-===================================== */
-
-/* keep markdown section titles centered */
+/* keep section titles centered */
 .home-section .section-heading h1,
 .home-section .section-heading h2,
 .home-section .section-heading h3 {
-  text-align: center;
-}
-
-/* ensure titles inside markdown blocks behave consistently */
-.home-section .prose h1,
-.home-section .prose h2,
-.home-section .prose h3 {
   text-align: center;
 }
