@@ -155,15 +155,25 @@ body.dark p {
   text-align: left;
 }
 
-/* fix list indentation */
-.home-section .prose ul {
-  margin-left: 1.5rem;
+/* Fix list indentation in landing markdown blocks */
+
+/* keep markdown content left aligned */
+.home-section .prose {
+  text-align: left;
 }
 
-/* keep section titles centered */
-.section-heading {
-  text-align: center !important;
+/* fix list alignment */
+.home-section .prose ul {
+  padding-left: 1em !important;
 }
+
+/* fix landing section alignment */
+.home-section .section-inner {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0 !important;
+}
+
 
 /* =====================================
    Fix HugoBlox markdown titles alignment
