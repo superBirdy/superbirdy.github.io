@@ -25,6 +25,7 @@ sections:
          - **Energy, Policy and Environment**<br>
             Instructor and Teaching Assistant — Nov. 2023
 
+
   - block: markdown
     content:
       title: "Teaching Assistant"
