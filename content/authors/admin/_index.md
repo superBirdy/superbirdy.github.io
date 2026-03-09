@@ -45,59 +45,6 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-2157-2652
 
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 90
-        icon: code-bracket
-      - name: R
-        description: ''
-        percent: 90
-        icon: code-bracket
-      - name: GAMS
-        description: ''
-        percent: 90
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 80
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Basketball
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 100
-  - name: Japanese
-    percent: 25
-  - name: Spanish
-    percent: 25
-
 ---
 
 ## About Me
@@ -109,9 +56,7 @@ My work combines **applied econometrics, optimization modeling, and integrated e
 
 My research agenda focuses on two main areas: **(1) climate shocks and economic resilience in agricultural and energy systems, and (2) environmental and economic evaluation of emerging low-carbon technologies and sustainable production systems.**
 
-<a class="btn btn-primary" href="/uploads/CV.pdf" target="_blank">
-Download CV
-</a>
+[Download CV](/uploads/CV.pdf){.btn .btn-primary target="_blank"}
 
 ## Research Interests
 
