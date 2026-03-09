@@ -203,19 +203,34 @@ body.dark p {
 Fix HugoBlox resume-biography-3 layout
 ====================================== */
 
-/* remove empty right column */
+/* =====================================
+FORCE OVERRIDE HugoBlox biography layout
+===================================== */
+
+/* remove bootstrap grid behavior */
+.wg-resume-biography-3 .row {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+}
+
+/* profile image column */
+.wg-resume-biography-3 .col-lg-4 {
+  flex: 0 0 320px !important;
+  max-width: 320px !important;
+}
+
+/* biography text column */
+.wg-resume-biography-3 .col-lg-5 {
+  flex: 1 !important;
+  max-width: none !important;
+}
+
+/* completely remove hidden 3rd column */
 .wg-resume-biography-3 .col-lg-3 {
   display: none !important;
 }
 
-/* expand bio column */
-.wg-resume-biography-3 .col-lg-5 {
-  flex: 0 0 70%;
-  max-width: 70%;
-}
-
-/* keep profile column */
-.wg-resume-biography-3 .col-lg-4 {
-  flex: 0 0 30%;
-  max-width: 30%;
+/* allow text to expand */
+.wg-resume-biography-3 .prose {
+  max-width: none !important;
 }
