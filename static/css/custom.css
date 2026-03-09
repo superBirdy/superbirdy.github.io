@@ -177,11 +177,7 @@ body.dark p {
     line-height: 1.8;
 }
 
-/* CV button size */
 
-.wg-resume-biography-3 .btn {
-    font-size: 20px;
-}
 
 
 /* =====================================================
@@ -190,4 +186,15 @@ body.dark p {
 
 .home-section .max-w-prose {
     max-width: 1100px !important;
+}
+
+/* Fix resume-biography layout to 2 columns */
+
+.wg-resume-biography-3 .col-lg-5 {
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+
+.wg-resume-biography-3 .col-lg-3 {
+  display: none;
 }
