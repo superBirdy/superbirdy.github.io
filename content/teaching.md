@@ -23,7 +23,7 @@ sections:
         & King Abdullah Petroleum Studies and Research Center (KAPSARC), Riyadh, Saudi Arabia**
 
          - **Energy, Policy and Environment**<br>
-            Instructor and Teaching Assistant 2023
+            Instructor and Teaching Assistant — Nov. 2023
 
   - block: markdown
     content:
