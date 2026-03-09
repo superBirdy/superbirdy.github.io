@@ -112,3 +112,8 @@ body.dark {
 p {
     text-align: justify;
 }
+
+/* Left-align markdown block titles */
+.block-markdown h2 {
+    text-align: left;
+}
