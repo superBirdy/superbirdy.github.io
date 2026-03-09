@@ -19,3 +19,13 @@ h3 {
 nav {
     font-size: 18px;
 }
+
+/* Widen landing page sections */
+.home-section .container {
+  max-width: 1400px !important;
+}
+
+/* Widen markdown blocks */
+.home-section .section-inner {
+  max-width: 1200px;
+}
