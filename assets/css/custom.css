@@ -145,6 +145,17 @@ body.dark p {
    Markdown Titles Alignment
 ===================================================== */
 
+/* =====================================================
+   Fix landing page title alignment
+===================================================== */
+
+.home-section .section-heading h1,
+.home-section .section-heading h2 {
+    text-align: left;
+}
+
+/* Ensure markdown titles also align */
+
 .block-markdown h2 {
     text-align: left;
 }
