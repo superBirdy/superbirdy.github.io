@@ -45,38 +45,6 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-2157-2652
 
-interests:
-  - Agricultural and Environmental Economics
-  - Climate Change Impacts on Agriculture
-  - Energy and Environmental Policy
-  - Climate Risk and Economic Resilience
-  - Low-Carbon Technologies and Bioeconomy
-  - Agricultural and Energy Market Modeling
-  - Applied Econometrics
-  - Techno-Economic and Life Cycle Assessment
-
-education:
-  - area: PhD Agricultural Economics
-    institution: Texas A&M University
-    date_start: 2020-08-19
-    date_end: 2024-05-09
-
-  - area: MA Economics
-    institution: The University of Texas at Austin
-    date_start: 2018-07-01
-    date_end: 2019-05-31
-
-  - area: MA Economics
-    institution: National Tsing Hua University
-    date_start: 2013-08-31
-    date_end: 2016-11-01
-
-  - area: BA Economics
-    institution: Lanzhou University
-    date_start: 2009-08-01
-    date_end: 2013-06-30
-
-
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -140,3 +108,14 @@ I am an **applied agricultural and environmental economist** and **Associate Res
 My work combines **applied econometrics, optimization modeling, and integrated environmental–economic assessment** to analyze how environmental risks propagate through markets and supply chains. I study how climate variability, extreme events, and technological transitions influence production systems, resource use, and market outcomes.
 
 My research agenda focuses on two main areas: **(1) climate shocks and economic resilience in agricultural and energy systems, and (2) economic evaluation of emerging low-carbon technologies and sustainable production systems.**
+
+
+## Research Interests
+
+  - Climate Change Impacts on Agriculture
+  - Agricultural and Energy Market Modeling
+  - Climate Risk and Economic Resilience
+  - Low-Carbon Technologies and Bioeconomy
+  - Applied Econometrics
+  - Techno-Economic and Life Cycle Assessment
+
