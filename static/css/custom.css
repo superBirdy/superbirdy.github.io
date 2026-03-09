@@ -178,3 +178,19 @@ body.dark p {
 .home-section .section-heading h3 {
     text-align: center;
 }
+
+/* =====================================
+   Widen About section layout
+===================================== */
+
+.wg-about .about-container {
+  max-width: 1400px;
+}
+
+.wg-about .row {
+  max-width: 1400px;
+}
+
+.wg-about .max-w-prose {
+  max-width: 1100px !important;
+}
