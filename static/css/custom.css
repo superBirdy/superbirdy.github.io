@@ -17,13 +17,11 @@ body {
    Page Width
 ===================================================== */
 
-/* Wider site container */
-
 .container {
     max-width: 1400px;
 }
 
-/* Landing page sections (Research page) */
+/* Landing page sections */
 
 .home-section .section-inner {
     max-width: 1200px;
@@ -36,7 +34,6 @@ body {
 .article-container {
     max-width: 1200px;
 }
-
 
 /* Improve side spacing */
 
@@ -75,24 +72,25 @@ h3 {
 
 p {
     margin-bottom: 1.25em;
-    max-width: 1050px;
     text-align: justify;
 }
 
 
 /* =====================================================
-   About / Bio Section
+   About / Bio Section (FIXED)
 ===================================================== */
 
-.about-section .prose {
-  max-width: 1100px !important;
+/* This is the correct HugoBlox selector */
+
+.wg-about .max-w-prose {
+    max-width: 1200px !important;
 }
 
-.about-section .about-container {
-  max-width: 1200px;
+.wg-about .about-container {
+    max-width: 1200px;
 }
 
-.about-section p:first-of-type {
+.wg-about p:first-of-type {
     font-size: 22px;
 }
 
@@ -142,35 +140,41 @@ body.dark p {
     color: #d4d4d4;
 }
 
-/* =====================================
-   HugoBlox Layout Fixes
-===================================== */
 
-/* widen prose text container */
+/* =====================================================
+   HugoBlox Layout Fixes
+===================================================== */
+
+/* widen markdown text */
+
 .max-w-prose {
-  max-width: 1200px !important;
+    max-width: 1200px !important;
 }
 
 /* keep markdown content left aligned */
+
 .home-section .prose {
-  text-align: left;
+    text-align: left;
 }
 
 /* fix list alignment */
+
 .home-section .prose ul {
-  padding-left: 1em !important;
+    padding-left: 1em !important;
 }
 
 /* fix landing section alignment */
+
 .home-section .section-inner {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0 !important;
 }
 
 /* keep section titles centered */
+
 .home-section .section-heading h1,
 .home-section .section-heading h2,
 .home-section .section-heading h3 {
-  text-align: center;
+    text-align: center;
 }
