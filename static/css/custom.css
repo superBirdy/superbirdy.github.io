@@ -141,27 +141,26 @@ body.dark p {
 }
 
 /* =====================================
-   Override HugoBlox text width
+   HugoBlox Layout Fixes
 ===================================== */
 
-.max-w-prose {
-  max-width: 1100px !important;
-}
-
+/* widen prose text */
+.max-w-prose,
 .prose {
   max-width: 1100px !important;
 }
 
-.home-section .prose {
-  max-width: 1100px !important;
-}
-
-/* Force markdown content left alignment inside landing blocks */
+/* keep markdown content left aligned */
 .home-section .prose {
   text-align: left;
 }
 
-/* Ensure lists align correctly */
+/* fix list indentation */
 .home-section .prose ul {
   margin-left: 1.5rem;
+}
+
+/* keep section titles centered */
+.section-heading {
+  text-align: center !important;
 }
