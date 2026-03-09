@@ -5,7 +5,7 @@ type: landing
 
 design:
   spacing: '2rem'
-  css_class: dark
+  css_class: "dark container-xl"
 
 sections:
 
