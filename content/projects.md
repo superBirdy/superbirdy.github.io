@@ -5,7 +5,7 @@ type: landing
 
 design:
   spacing: '2rem'
-  css_class: dark
+  css_class: "dark container-xl"
 
 sections:
 
@@ -28,7 +28,7 @@ sections:
 
   - block: markdown
     content:
-      title: 'Climate Risks and Economic Resilience'
+      title: "Climate Risks and Economic Resilience"
       text: |-
         This research examines how **climate variability, extreme weather events, and ecological disturbances** affect agricultural and energy systems.
 
@@ -44,7 +44,7 @@ sections:
 
   - block: markdown
     content:
-      title: 'Technology Adoption, Environmental Impacts, and Low-Carbon Transitions'
+      title: "Technology Adoption, Environmental Impacts, and Low-Carbon Transitions"
       text: |-
         The second stream of my research evaluates the **economic viability and environmental implications of emerging low-carbon technologies and bio-based production systems**.
 
