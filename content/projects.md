@@ -26,37 +26,38 @@ sections:
         **2. Technology Adoption, Environmental Impacts, and Low-Carbon Transitions**
 
 
-  - block: markdown
+  - block: columns
+    design:
+      columns: 2
     content:
-      title: 'Climate Risks and Economic Resilience'
-      text: |-
-        This research examines how **climate variability, extreme weather events, and ecological disturbances** affect agricultural and energy systems.
 
-        I study how environmental shocks propagate through **markets, supply chains, and production systems**, and how economic systems adapt to these disruptions. My work combines **econometric analysis, climate datasets, and sector-level economic models** to quantify the economic impacts of environmental variability.
+      - title: "Climate Risks and Economic Resilience"
+        text: |-
+          This research examines how **climate variability, extreme weather events, and ecological disturbances** affect agricultural and energy systems.
 
-        Representative projects include:
+          I study how environmental shocks propagate through **markets, supply chains, and production systems**, and how economic systems adapt to these disruptions. My work combines **econometric analysis, climate datasets, and sector-level economic models** to quantify the economic impacts of environmental variability.
 
-        - **Forest-loss-driven ecoclimate teleconnections and U.S. agricultural productivity**
-        - **Economic impacts of hurricane landfalls and forecast uncertainty on Gulf Coast refineries**
-        - **Climate variability and honey bee loss rates in pollination markets**
-        - **Environmental stress and structural shifts in U.S. livestock systems**
+          Representative projects include:
+
+          - **Forest-loss-driven ecoclimate teleconnections and U.S. agricultural productivity**
+          - **Economic impacts of hurricane landfalls and forecast uncertainty on Gulf Coast refineries**
+          - **Climate variability and honey bee loss rates in pollination markets**
+          - **Environmental stress and structural shifts in U.S. livestock systems**
 
 
-  - block: markdown
-    content:
-      title: 'Technology Adoption, Environmental Impacts, and Low-Carbon Transitions'
-      text: |-
-        The second stream of my research evaluates the **economic viability and environmental implications of emerging low-carbon technologies and bio-based production systems**.
+      - title: "Technology Adoption, Environmental Impacts, and Low-Carbon Transitions"
+        text: |-
+          The second stream of my research evaluates the **economic viability and environmental implications of emerging low-carbon technologies and bio-based production systems**.
 
-        This work focuses on how **technological innovation, policy incentives, and market responses** influence the adoption of new production systems and shape the transition toward more sustainable energy and agricultural systems.
+          This work focuses on how **technological innovation, policy incentives, and market responses** influence the adoption of new production systems and shape the transition toward more sustainable energy and agricultural systems.
 
-        I combine engineering system information with **economic analysis and integrated environmental–economic assessment** to evaluate the market feasibility, environmental trade-offs, and supply-chain implications of new technologies.
+          I combine engineering system information with **economic analysis and integrated environmental–economic assessment** to evaluate the market feasibility, environmental trade-offs, and supply-chain implications of new technologies.
 
-        Current research projects include:
+          Current research projects include:
 
-        - **Electro-biomanufacturing systems for sustainable fuels and chemicals**
-        - **Algae-based carbon capture and utilization systems**
-        - **Integrated biorefinery design and waste-to-bioproduct pathways**
-        - **Carbon markets and policy incentives for low-carbon fuels and materials**
+          - **Electro-biomanufacturing systems for sustainable fuels and chemicals**
+          - **Algae-based carbon capture and utilization systems**
+          - **Integrated biorefinery design and waste-to-bioproduct pathways**
+          - **Carbon markets and policy incentives for low-carbon fuels and materials**
 
 ---
