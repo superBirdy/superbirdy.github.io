@@ -21,25 +21,24 @@ body {
     max-width: 1400px;
 }
 
-/* Landing page sections */
+.article-container {
+    max-width: 1200px;
+}
+
+.main-content {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+
+/* =====================================================
+   Landing Page Section Width
+===================================================== */
 
 .home-section .section-inner {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-}
-
-/* Article pages */
-
-.article-container {
-    max-width: 1200px;
-}
-
-/* Improve side spacing */
-
-.main-content {
-    padding-left: 32px;
-    padding-right: 32px;
 }
 
 
@@ -77,25 +76,6 @@ p {
 
 
 /* =====================================================
-   About / Bio Section (FIXED)
-===================================================== */
-
-/* This is the correct HugoBlox selector */
-
-.wg-about .max-w-prose {
-    max-width: 1200px !important;
-}
-
-.wg-about .about-container {
-    max-width: 1200px;
-}
-
-.wg-about p:first-of-type {
-    font-size: 22px;
-}
-
-
-/* =====================================================
    Lists
 ===================================================== */
 
@@ -110,12 +90,12 @@ ul li {
 ===================================================== */
 
 .navbar {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 /* =====================================================
-   Profile Section
+   Profile Card
 ===================================================== */
 
 .author-card .title {
@@ -142,36 +122,25 @@ body.dark p {
 
 
 /* =====================================================
-   HugoBlox Layout Fixes
+   HugoBlox Markdown Width
 ===================================================== */
-
-/* widen markdown text */
 
 .max-w-prose {
     max-width: 1200px !important;
 }
 
-/* keep markdown content left aligned */
-
 .home-section .prose {
     text-align: left;
 }
-
-/* fix list alignment */
 
 .home-section .prose ul {
     padding-left: 1em !important;
 }
 
-/* fix landing section alignment */
 
-.home-section .section-inner {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0 !important;
-}
-
-/* keep section titles centered */
+/* =====================================================
+   Section Title Alignment
+===================================================== */
 
 .home-section .section-heading h1,
 .home-section .section-heading h2,
@@ -179,22 +148,42 @@ body.dark p {
     text-align: center;
 }
 
-/* ===============================
-   Widen homepage biography text
-================================ */
 
-.resume-biography .max-w-prose,
-.resume-biography-3 .max-w-prose {
-  max-width: 1400px !important;
+/* =====================================================
+   Homepage Biography Layout Fix
+===================================================== */
+
+/* center the biography block */
+
+.wg-resume-biography-3 .row {
+    justify-content: center;
 }
+
+/* widen biography text */
 
 .wg-resume-biography-3 .prose {
-  max-width: 1200px !important;
+    max-width: 950px;
 }
 
-/* optional: increase font size */
-.resume-biography p,
-.resume-biography-3 p {
-  font-size: 20px;
-  line-height: 1.8;
+/* increase font size for bio content */
+
+.wg-resume-biography-3 p,
+.wg-resume-biography-3 li {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* CV button */
+
+.wg-resume-biography-3 .btn {
+    font-size: 20px;
+}
+
+
+/* =====================================================
+   Research / Projects Page Width
+===================================================== */
+
+.home-section .max-w-prose {
+    max-width: 1100px !important;
 }
