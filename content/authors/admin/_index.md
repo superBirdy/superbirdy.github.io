@@ -109,7 +109,9 @@ My work combines **applied econometrics, optimization modeling, and integrated e
 
 My research agenda focuses on two main areas: **(1) climate shocks and economic resilience in agricultural and energy systems, and (2) environmental and economic evaluation of emerging low-carbon technologies and sustainable production systems.**
 
-{{< cta cta_text="Download CV" cta_link="/uploads/CV.pdf" >}}
+<a class="btn btn-primary" href="/uploads/CV.pdf" target="_blank">
+Download CV
+</a>
 
 ## Research Interests
 
