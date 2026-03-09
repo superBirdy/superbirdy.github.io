@@ -188,6 +188,10 @@ body.dark p {
   max-width: 1400px !important;
 }
 
+.wg-resume-biography-3 .prose {
+  max-width: 1200px !important;
+}
+
 /* optional: increase font size */
 .resume-biography p,
 .resume-biography-3 p {
