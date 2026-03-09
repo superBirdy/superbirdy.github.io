@@ -125,3 +125,14 @@ body.dark p {
 .block-markdown h2 {
     text-align: left;
 }
+/* =========================
+   Widen Research Page
+========================= */
+
+.home-section .section-inner {
+  max-width: 1300px !important;
+}
+
+.home-section .container {
+  max-width: 1400px !important;
+}
