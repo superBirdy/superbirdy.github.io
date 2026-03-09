@@ -152,85 +152,47 @@ body.dark p {
 
 
 /* =====================================================
-   Homepage Biography Layout Fix
+   FORCE FIX: HugoBlox resume-biography-3 layout
+   Convert template 3-column grid into 2-column layout
 ===================================================== */
 
-/* keep biography block centered */
-
-.wg-resume-biography-3 .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+/* Remove the skills/language column entirely */
+.wg-resume-biography-3 .row > .col-lg-3 {
+  display: none !important;
 }
 
-/* text width for readability */
-
-.wg-resume-biography-3 .prose {
-    max-width: 1100px;
-}
-
-/* consistent font size */
-
-.wg-resume-biography-3 p,
-.wg-resume-biography-3 li {
-    font-size: 20px;
-    line-height: 1.8;
-}
-
-
-
-
-/* =====================================================
-   Research / Projects Page Width
-===================================================== */
-
-.home-section .max-w-prose {
-    max-width: 1100px !important;
-}
-
-/* Fix resume-biography layout to 2 columns */
-
-.wg-resume-biography-3 .col-lg-5 {
-  flex: 0 0 70%;
-  max-width: 70%;
-}
-
-.wg-resume-biography-3 .col-lg-3 {
-  display: none;
-}
-
-/* ======================================
-Fix HugoBlox resume-biography-3 layout
-====================================== */
-
-/* =====================================
-FORCE OVERRIDE HugoBlox biography layout
-===================================== */
-
-/* remove bootstrap grid behavior */
-.wg-resume-biography-3 .row {
-  display: flex !important;
-  flex-wrap: nowrap !important;
-}
-
-/* profile image column */
-.wg-resume-biography-3 .col-lg-4 {
+/* Photo column width */
+.wg-resume-biography-3 .row > .col-lg-4 {
   flex: 0 0 320px !important;
   max-width: 320px !important;
 }
 
-/* biography text column */
-.wg-resume-biography-3 .col-lg-5 {
-  flex: 1 !important;
+/* Biography column expands to remaining space */
+.wg-resume-biography-3 .row > .col-lg-5 {
+  flex: 1 1 auto !important;
   max-width: none !important;
 }
 
-/* completely remove hidden 3rd column */
-.wg-resume-biography-3 .col-lg-3 {
-  display: none !important;
+/* Ensure the row stays horizontal */
+.wg-resume-biography-3 .row {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: flex-start;
 }
 
-/* allow text to expand */
+/* Allow biography text to use full width */
 .wg-resume-biography-3 .prose {
   max-width: none !important;
+}
+
+/* Typography for bio section */
+.wg-resume-biography-3 p,
+.wg-resume-biography-3 li {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+/* Slight spacing improvement */
+.wg-resume-biography-3 .col-lg-5 {
+  padding-left: 30px;
 }
