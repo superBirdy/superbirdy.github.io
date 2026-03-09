@@ -41,4 +41,6 @@ sections:
 
         - **AGEC 621: Econometrics for Agribusiness (Master's level)**  
           Fall 2021
+
+    
 ---
