@@ -107,8 +107,9 @@ I am an **applied agricultural and environmental economist** and **Associate Res
 
 My work combines **applied econometrics, optimization modeling, and integrated environmental–economic assessment** to analyze how environmental risks propagate through markets and supply chains. I study how climate variability, extreme events, and technological transitions influence production systems, resource use, and market outcomes.
 
-My research agenda focuses on two main areas: **(1) climate shocks and economic resilience in agricultural and energy systems, and (2) economic evaluation of emerging low-carbon technologies and sustainable production systems.**
+My research agenda focuses on two main areas: **(1) climate shocks and economic resilience in agricultural and energy systems, and (2) environmental and economic evaluation of emerging low-carbon technologies and sustainable production systems.**
 
+{{< cta cta_text="Download CV" cta_link="/uploads/CV.pdf" >}}
 
 ## Research Interests
 
