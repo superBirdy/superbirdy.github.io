@@ -1,21 +1,56 @@
+/* Body text */
 body {
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.6;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.75;
 }
 
+/* Main content width */
+.container {
+    max-width: 1050px;
+}
+
+/* Headings */
 h1 {
-    font-size: 36px;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 30px;
+    margin-top: 1.6em;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 24px;
 }
 
-nav {
+/* Paragraph spacing */
+p {
+    margin-bottom: 1.1em;
+}
+
+/* Navigation bar */
+.navbar {
     font-size: 18px;
+}
+
+/* Profile name */
+.author-card .title {
+    font-size: 34px;
+}
+
+/* Improve readability in dark mode */
+body.dark {
+    color: #e5e7eb;
+}
+
+.main-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.about-section p {
+    max-width: 720px;
 }
