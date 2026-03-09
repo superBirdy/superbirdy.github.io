@@ -16,28 +16,28 @@ sections:
 
         **Texas A&M University**
 
-        **AGEC 641: Applied Mathematical Programming (Ph.D. level)**  
+         - **AGEC 641: Applied Mathematical Programming (Ph.D. level)**  
         Lab Instructor — Spring 2023
 
-        Topics covered:
+          -Topics covered:
 
-        - Basic logic of the **GAMS optimization language**
-        - Applications of **GAMS for solving optimization problems**
+            - Basic logic of the **GAMS optimization language**
+            - Applications of **GAMS for solving optimization problems**
 
-        **Energy Institute, Texas A&M University**
-        & King Abdullah Petroleum Studies and Research Center (KAPSARC), Riyadh, Saudi Arabia
+        **Energy Institute, Texas A&M University
+        & King Abdullah Petroleum Studies and Research Center (KAPSARC), Riyadh, Saudi Arabia**
 
-        Instructor and Teaching Assistant for **Energy, Policy and Environment**
+         - Instructor and Teaching Assistant for **Energy, Policy and Environment**
 
-        Responsibilities included:
+          -Responsibilities included:
 
-        - Coordinated with **Dr. Bruce McCarl** to design the course structure and syllabus
-        - Delivered lectures on:
+            - Coordinated with **Dr. Bruce McCarl** to design the course structure and syllabus
+            - Delivered lectures on:
 
-          - Energy impacts on the environment
-          - Environmental impacts of energy
-          - Air pollution, energy, and air quality
-          - Challenges in replacing fossil fuels
+              - Energy impacts on the environment
+              - Environmental impacts of energy
+              - Air pollution, energy, and air quality
+              - Challenges in replacing fossil fuels
     
   - block: markdown
     content:
