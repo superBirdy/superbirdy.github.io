@@ -1,4 +1,5 @@
 ---
+---
 title: "Teaching"
 date: 2026-03-09
 type: landing
@@ -11,8 +12,10 @@ sections:
 
   - block: markdown
     content:
-      title: "Instructor"
+      title: "Teaching"
       text: |-
+
+        ## Instructor
 
         ### Texas A&M University
 
@@ -39,10 +42,8 @@ sections:
           - Air pollution, energy, and air quality
           - Challenges in replacing fossil fuels
 
-  - block: markdown
-    content:
-      title: "Teaching Assistant"
-      text: |-
+
+        ## Teaching Assistant
 
         ### Texas A&M University
 
