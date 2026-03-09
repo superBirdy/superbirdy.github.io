@@ -25,7 +25,15 @@ nav {
   max-width: 1400px !important;
 }
 
-/* Widen markdown blocks */
+/* Expand markdown blocks */
 .home-section .section-inner {
   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Remove bootstrap column width restriction */
+.home-section .col-lg-8 {
+  max-width: 100%;
+  flex: 0 0 100%;
 }
