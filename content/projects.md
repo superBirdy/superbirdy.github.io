@@ -11,44 +11,52 @@ sections:
 
   - block: markdown
     content:
-      title: '📚 Research Overview'
+      title: "Research Vision"
       text: |-
-        My research lies at the intersection of **agricultural economics, energy economics, and environmental economics**, with a focus on how climate shocks and technological transitions affect economic systems. 
+        My research studies how **climate risks, technological change, and environmental impacts reshape agricultural and energy systems**. I focus on understanding how environmental shocks influence production systems, markets, and supply chains, and how innovation and policy shape the transition toward more sustainable economic systems.
 
-        I combine **applied econometrics, optimization modeling, and integrated environmental–economic assessment** to analyze how environmental shocks and emerging technologies reshape agricultural and energy markets. My work also integrates **life cycle assessment (LCA)** and **techno-economic analysis (TEA)** to evaluate the economic feasibility and environmental impacts of low-carbon technologies.
+        These questions are increasingly important as **climate variability and extreme weather events alter environmental conditions**, while new technologies emerge to reduce emissions and transform resource use. My work aims to quantify both the **economic and environmental consequences of these transitions** and to inform policy and investment decisions that support resilient and sustainable production systems.
 
-        My research agenda centers on two main areas:
+        I approach these questions using **applied econometrics, economic modeling, and integrated environmental–economic analysis**, combining large-scale datasets with sector-level models.
 
-        1. **Climate Shocks and Economic Resilience**
-        2. **Low-Carbon Transitions and Technology Adoption**
+        My research agenda centers on two closely related themes:
+
+        **1. Climate Risks and Economic Resilience**
+
+        **2. Technology Adoption, Environmental Impacts, and Low-Carbon Transitions**
+
 
   - block: markdown
     content:
-      title: '🌪️ Climate Shocks and Resilience'
+      title: 'Climate Variability and Economic Resilience'
       text: |-
-        This research examines how **extreme weather events, climate variability, and ecological changes** affect agricultural and energy systems.
+        This research examines how **climate variability, extreme weather events, and ecological disturbances** affect agricultural and energy systems.
 
-        My work focuses on understanding how environmental shocks propagate through markets and supply chains, and how economic systems adapt to these disruptions. I apply **econometric modeling, sector-level simulation models, and large-scale climate datasets** to quantify these impacts.
+        I study how environmental shocks propagate through **markets, supply chains, and production systems**, and how economic systems adapt to these disruptions. My work combines **econometric analysis, climate datasets, and sector-level economic models** to quantify the economic impacts of environmental variability.
 
         Representative projects include:
 
         - **Forest-loss-driven ecoclimate teleconnections and U.S. agricultural productivity**
         - **Economic impacts of hurricane landfalls and forecast uncertainty on Gulf Coast refineries**
-        - **Climate change impacts on honey bee loss rates and pollination markets**
-        - **Climate change and structural shifts in U.S. livestock systems**
+        - **Climate variability and honey bee loss rates in pollination markets**
+        - **Environmental stress and structural shifts in U.S. livestock systems**
+
 
   - block: markdown
     content:
-      title: '⚡ Low-Carbon Transitions and Technology Adoption'
+      title: 'Technology Adoption and Low-Carbon System Transitions'
       text: |-
-        The second stream of my research evaluates the **economic and environmental performance of emerging low-carbon technologies and bio-based production systems**.
+        The second stream of my research evaluates the **economic viability and environmental implications of emerging low-carbon technologies and bio-based production systems**.
 
-        I develop integrated **techno-economic analysis (TEA) and life cycle assessment (LCA)** frameworks to assess the market viability, environmental impacts, and supply chain implications of new technologies.
+        This work focuses on how **technological innovation, policy incentives, and market responses** influence the adoption of new production systems and shape the transition toward more sustainable energy and agricultural systems.
+
+        I combine engineering system information with **economic analysis and integrated environmental–economic assessment** to evaluate the market feasibility, environmental trade-offs, and supply-chain implications of new technologies.
 
         Current research projects include:
 
-        - **Electro-biomanufacturing systems for producing sustainable fuels and chemicals**
+        - **Electro-biomanufacturing systems for sustainable fuels and chemicals**
         - **Algae-based carbon capture and utilization systems**
-        - **Biorefinery design and waste-to-bioproduct conversion pathways**
+        - **Integrated biorefinery design and waste-to-bioproduct pathways**
         - **Carbon markets and policy incentives for low-carbon fuels and materials**
+
 ---
