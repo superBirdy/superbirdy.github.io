@@ -198,3 +198,24 @@ body.dark p {
 .wg-resume-biography-3 .col-lg-3 {
   display: none;
 }
+
+/* ======================================
+Fix HugoBlox resume-biography-3 layout
+====================================== */
+
+/* remove empty right column */
+.wg-resume-biography-3 .col-lg-3 {
+  display: none !important;
+}
+
+/* expand bio column */
+.wg-resume-biography-3 .col-lg-5 {
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+
+/* keep profile column */
+.wg-resume-biography-3 .col-lg-4 {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
