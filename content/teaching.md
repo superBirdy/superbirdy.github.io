@@ -11,8 +11,10 @@ sections:
 
   - block: markdown
     content:
-      title: "Instructor"
+      title: "Teaching"
       text: |-
+
+        ## Instructor
 
         **Texas A&M University**
 
@@ -26,10 +28,7 @@ sections:
           Instructor and Teaching Assistant — Nov. 2023
 
 
-  - block: markdown
-    content:
-      title: "Teaching Assistant"
-      text: |-
+        ## Teaching Assistant
 
         **Texas A&M University**
 
@@ -41,6 +40,4 @@ sections:
 
         - **AGEC 621: Econometrics for Agribusiness (Master's level)**  
           Fall 2021
-
-    
 ---
