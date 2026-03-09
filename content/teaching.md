@@ -8,7 +8,6 @@ design:
   spacing: "2rem"
 
 sections:
-
   - block: markdown
     content:
       title: "Teaching"
