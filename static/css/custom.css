@@ -1,0 +1,193 @@
+/* =====================================================
+   Global Typography
+===================================================== */
+
+body {
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* =====================================================
+   Page Width
+===================================================== */
+
+/* reduce container width so homepage content stays centered */
+
+.container {
+    max-width: 1200px;
+}
+
+.article-container {
+    max-width: 1200px;
+}
+
+.main-content {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+
+/* =====================================================
+   Landing Page Section Width
+===================================================== */
+
+.home-section .section-inner {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* =====================================================
+   Headings
+===================================================== */
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 1.6em;
+    margin-bottom: 0.6em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 1.4em;
+}
+
+
+/* =====================================================
+   Paragraph Readability
+===================================================== */
+
+p {
+    margin-bottom: 1.25em;
+    text-align: justify;
+}
+
+
+/* =====================================================
+   Lists
+===================================================== */
+
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   Navigation Bar
+===================================================== */
+
+.navbar {
+    font-size: 20px;
+}
+
+
+/* =====================================================
+   Profile Card
+===================================================== */
+
+.author-card .title {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.author-card .subtitle {
+    font-size: 18px;
+}
+
+
+/* =====================================================
+   Dark Mode Readability
+===================================================== */
+
+body.dark {
+    color: #e6e6e6;
+}
+
+body.dark p {
+    color: #d4d4d4;
+}
+
+
+/* =====================================================
+   HugoBlox Markdown Width
+===================================================== */
+
+.max-w-prose {
+    max-width: 1100px !important;
+}
+
+.home-section .prose {
+    text-align: left;
+}
+
+.home-section .prose ul {
+    padding-left: 1em !important;
+}
+
+
+/* =====================================================
+   Section Title Alignment
+===================================================== */
+
+.home-section .section-heading h1,
+.home-section .section-heading h2,
+.home-section .section-heading h3 {
+    text-align: center;
+}
+
+
+/* =====================================================
+FORCE HugoBlox Biography Layout Override
+===================================================== */
+
+/* remove bootstrap column constraint */
+.wg-resume-biography-3 .col-lg-5,
+.wg-resume-biography-3 .col-lg-3 {
+  flex: 0 0 auto !important;
+  max-width: none !important;
+  width: auto !important;
+}
+
+/* expand the bio column */
+.wg-resume-biography-3 .col-lg-5 {
+  flex: 1 1 auto !important;
+  max-width: 100% !important;
+}
+
+/* hide the third column completely */
+.wg-resume-biography-3 .col-lg-3 {
+  display: none !important;
+}
+
+/* allow text to use full width */
+.wg-resume-biography-3 .prose {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* increase font size */
+.wg-resume-biography-3 p,
+.wg-resume-biography-3 li {
+  font-size: 20px !important;
+  line-height: 1.8 !important;
+}
+
+/* widen container */
+.wg-resume-biography-3 .container {
+  max-width: 1200px !important;
+}
