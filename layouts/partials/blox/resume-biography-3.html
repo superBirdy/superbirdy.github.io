@@ -1,10 +1,12 @@
 <div class="container">
-  <div class="row">
+  <div class="row justify-content-center">
 
+    <!-- Author card column -->
     <div class="col-lg-4">
-      {{ partial "author_card.html" . }}
+      {{ partial "blocks/resume-biography-3/author-card" . }}
     </div>
 
+    <!-- Biography content -->
     <div class="col-lg-8">
       <div class="prose">
         {{ .Content }}
