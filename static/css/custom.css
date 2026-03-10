@@ -197,7 +197,7 @@ FORCE HugoBlox Biography Layout Override
 
 /* expand bio text width */
 #section-resume-biography-3 .max-w-prose {
-  max-width: 900px !important;
+  max-width: 1200px !important;
 }
 
 /* increase font size */
