@@ -195,19 +195,19 @@ FORCE HugoBlox Biography Layout Override
 
 /* ===== Fix HugoBlox Biography Width ===== */
 
-/* expand bio text width */
 #section-resume-biography-3 .max-w-prose {
   max-width: 1200px !important;
 }
 
-/* increase font size */
+/* center text block relative to photo */
+#section-resume-biography-3 .resume-biography {
+  justify-content: center !important;
+  margin: 0 auto;
+}
+
+/* increase readable width */
 #section-resume-biography-3 p,
 #section-resume-biography-3 li {
   font-size: 20px !important;
   line-height: 1.8 !important;
-}
-
-/* adjust spacing between photo and text */
-#section-resume-biography-3 .resume-biography {
-  gap: 40px !important;
 }
