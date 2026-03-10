@@ -1,1 +1,15 @@
+<div class="container">
+  <div class="row">
 
+    <div class="col-lg-4">
+      {{ partial "author_card.html" . }}
+    </div>
+
+    <div class="col-lg-8">
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    </div>
+
+  </div>
+</div>
