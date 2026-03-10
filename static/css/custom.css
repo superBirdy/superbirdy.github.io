@@ -194,20 +194,21 @@ FORCE HugoBlox Biography Layout Override
 
 
 /* ===== Fix HugoBlox Biography Width ===== */
-
-#section-resume-biography-3 .max-w-prose {
-  max-width: 1200px !important;
+/* Make the bio container full width and left-aligned */
+#section-resume-biography-3 .resume-biography{
+  justify-content:flex-start !important;
+  max-width:1200px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
 }
 
-/* center text block relative to photo */
-#section-resume-biography-3 .resume-biography {
-  justify-content: center !important;
-  margin: 0 auto;
+/* Allow the text block to expand */
+#section-resume-biography-3 .max-w-prose{
+  max-width:none !important;
+  width:100% !important;
 }
 
-/* increase readable width */
-#section-resume-biography-3 p,
-#section-resume-biography-3 li {
-  font-size: 20px !important;
-  line-height: 1.8 !important;
+/* Optional: control spacing between photo and text */
+#section-resume-biography-3 .resume-biography{
+  gap:40px !important;
 }
