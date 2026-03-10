@@ -5,7 +5,7 @@
 body {
     font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
                  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.75;
     letter-spacing: 0.01em;
     -webkit-font-smoothing: antialiased;
@@ -17,32 +17,30 @@ body {
    Page Width
 ===================================================== */
 
-/* Wider site container */
+/* reduce container width so homepage content stays centered */
 
 .container {
-    max-width: 1400px;
-}
-
-/* Landing page section width */
-
-.home-section .section-inner {
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
 }
-
-/* Article pages */
 
 .article-container {
     max-width: 1200px;
 }
 
-
-/* Improve side spacing */
-
 .main-content {
     padding-left: 32px;
     padding-right: 32px;
+}
+
+
+/* =====================================================
+   Landing Page Section Width
+===================================================== */
+
+.home-section .section-inner {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -75,23 +73,7 @@ h3 {
 
 p {
     margin-bottom: 1.25em;
-    max-width: 1050px;
     text-align: justify;
-}
-
-
-/* =====================================================
-   About / Bio Section
-===================================================== */
-
-.about-section p {
-    font-size: 21px;
-    line-height: 1.8;
-    max-width: 780px;
-}
-
-.about-section p:first-of-type {
-    font-size: 22px;
 }
 
 
@@ -110,12 +92,12 @@ ul li {
 ===================================================== */
 
 .navbar {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 /* =====================================================
-   Profile Section
+   Profile Card
 ===================================================== */
 
 .author-card .title {
@@ -142,20 +124,75 @@ body.dark p {
 
 
 /* =====================================================
-   Markdown Titles Alignment
+   HugoBlox Markdown Width
 ===================================================== */
 
-/* =====================================================
-   Fix landing page title alignment
-===================================================== */
+.max-w-prose {
+    max-width: 1100px !important;
+}
 
-.home-section .section-heading h1,
-.home-section .section-heading h2 {
+.home-section .prose {
     text-align: left;
 }
 
-/* Ensure markdown titles also align */
+.home-section .prose ul {
+    padding-left: 1em !important;
+}
 
-.block-markdown h2 {
-    text-align: left;
+
+/* =====================================================
+   Section Title Alignment
+===================================================== */
+
+.home-section .section-heading h1,
+.home-section .section-heading h2,
+.home-section .section-heading h3 {
+    text-align: center;
+}
+
+
+/* =====================================================
+   FORCE FIX: HugoBlox resume-biography-3 layout
+   Convert template 3-column grid into 2-column layout
+===================================================== */
+
+/* Remove the skills/language column entirely */
+.wg-resume-biography-3 .row > .col-lg-3 {
+  display: none !important;
+}
+
+/* Photo column width */
+.wg-resume-biography-3 .row > .col-lg-4 {
+  flex: 0 0 320px !important;
+  max-width: 320px !important;
+}
+
+/* Biography column expands to remaining space */
+.wg-resume-biography-3 .row > .col-lg-5 {
+  flex: 1 1 auto !important;
+  max-width: none !important;
+}
+
+/* Ensure the row stays horizontal */
+.wg-resume-biography-3 .row {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: flex-start;
+}
+
+/* Allow biography text to use full width */
+.wg-resume-biography-3 .prose {
+  max-width: none !important;
+}
+
+/* Typography for bio section */
+.wg-resume-biography-3 p,
+.wg-resume-biography-3 li {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+/* Slight spacing improvement */
+.wg-resume-biography-3 .col-lg-5 {
+  padding-left: 30px;
 }
