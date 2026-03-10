@@ -152,47 +152,42 @@ body.dark p {
 
 
 /* =====================================================
-   FORCE FIX: HugoBlox resume-biography-3 layout
-   Convert template 3-column grid into 2-column layout
+FORCE HugoBlox Biography Layout Override
 ===================================================== */
 
-/* Remove the skills/language column entirely */
-.wg-resume-biography-3 .row > .col-lg-3 {
+/* remove bootstrap column constraint */
+.wg-resume-biography-3 .col-lg-5,
+.wg-resume-biography-3 .col-lg-3 {
+  flex: 0 0 auto !important;
+  max-width: none !important;
+  width: auto !important;
+}
+
+/* expand the bio column */
+.wg-resume-biography-3 .col-lg-5 {
+  flex: 1 1 auto !important;
+  max-width: 100% !important;
+}
+
+/* hide the third column completely */
+.wg-resume-biography-3 .col-lg-3 {
   display: none !important;
 }
 
-/* Photo column width */
-.wg-resume-biography-3 .row > .col-lg-4 {
-  flex: 0 0 320px !important;
-  max-width: 320px !important;
-}
-
-/* Biography column expands to remaining space */
-.wg-resume-biography-3 .row > .col-lg-5 {
-  flex: 1 1 auto !important;
-  max-width: none !important;
-}
-
-/* Ensure the row stays horizontal */
-.wg-resume-biography-3 .row {
-  display: flex !important;
-  flex-wrap: nowrap !important;
-  align-items: flex-start;
-}
-
-/* Allow biography text to use full width */
+/* allow text to use full width */
 .wg-resume-biography-3 .prose {
   max-width: none !important;
+  width: 100% !important;
 }
 
-/* Typography for bio section */
+/* increase font size */
 .wg-resume-biography-3 p,
 .wg-resume-biography-3 li {
-  font-size: 20px;
-  line-height: 1.8;
+  font-size: 20px !important;
+  line-height: 1.8 !important;
 }
 
-/* Slight spacing improvement */
-.wg-resume-biography-3 .col-lg-5 {
-  padding-left: 30px;
+/* widen container */
+.wg-resume-biography-3 .container {
+  max-width: 1200px !important;
 }
