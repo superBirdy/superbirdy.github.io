@@ -7,7 +7,6 @@ type: landing
 design:
   # Default section spacing
   spacing: "4rem"
-  css_class: dark
 
 sections:
   - block: resume-biography-3
@@ -19,19 +18,28 @@ sections:
         url: uploads/CV.pdf
       text: ""
       # Show a call-to-action button under your biography? (optional)
-    design:
-      css_class: dark
-      background:
-        color: grey
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 0.1
-          size: cover
-          position: center
-          parallax: false
 
+  - block: markdown
+    content:
+      title: "News"
+      text: |-
+        <div class="news-feature">
+          <img src="uploads/news/co2_bioplastics_art.jpg" alt="Artwork: CO2 captured from industry becomes biodegradable bioplastic, protecting sea turtles from plastic waste">
+          <div>
+            <div class="news-date">Featured</div>
+            <div class="news-head">Published in <em>ACS Sustainable Chemistry &amp; Engineering</em> (first author)</div>
+            <p>Turning captured CO<sub>2</sub> into biodegradable bioplastics. I estimated the social benefits of replacing fossil plastics by valuing the environmental damages avoided.</p>
+          </div>
+        </div>
+        <details class="news-archive">
+          <summary>Archive</summary>
+          <ul>
+          <li><span class="news-date">Oct 2026</span>Accepted in <em>One Earth</em>: protein production from CO<sub>2</sub> by electro-biomanufacturing. I co-led the techno-economic and life cycle assessment.</li>
+          <li><span class="news-date">2026</span>Accepted in <em>Matter</em>: fluorine-free superhydrophobic coatings. I evaluated the human-health benefits of replacing PFAS-based coatings.</li>
+          <li><span class="news-date">2026</span>Published in <em>Matter</em>: renewable carbon fiber. I co-led the techno-economic and life cycle assessment.</li>
+          <li><span class="news-date">2025</span>Published in <em>Environmental Research Letters</em> (first author): refinery output and profit losses from hurricane forecasts.</li>
+          </ul>
+        </details>
     
 
     

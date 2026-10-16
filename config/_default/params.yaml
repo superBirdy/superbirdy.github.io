@@ -5,10 +5,14 @@
 
 # Appearance
 appearance:
-  mode: light
+  mode: dark
   color: blue
 
 # SEO
+marketing:
+  seo:
+    site_type: Person
+    description: 'Yayun (Birdy) Chen, Associate Research Scientist in Agricultural Economics at Texas A&M University. Research on climate risk, energy markets, and the economics of low-carbon technologies.'
 #marketing:
 #  seo:
 #    site_type: Person
@@ -40,9 +44,9 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Yayun (Birdy) Chen. This work is licensed under {license}'
+    notice: '© {year} Yayun (Birdy) Chen · Last updated October 2026'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

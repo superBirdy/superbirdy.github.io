@@ -8,9 +8,6 @@ title: Yayun (Birdy) Chen
 first_name: Yayun
 last_name: Chen
 
-# Status emoji
-status:
-  icon: 🐶
 
 # Is this the primary user of the site?
 superuser: true
@@ -50,19 +47,19 @@ profiles:
 ## About Me
 
 
-I am an **applied agricultural and environmental economist** and **Associate Research Scientist** in the Department of Agricultural Economics at **Texas A&M University**. My research examines how **climate shocks, environmental change, and technological innovation affect agricultural and energy systems**, with the goal of improving the resilience and sustainability of economic systems under climate stress.
+I am an **applied agricultural and environmental economist** and Associate Research Scientist in the Department of Agricultural Economics at Texas A&M University. My research examines how climate shocks, environmental change, and technological innovation affect agricultural and energy systems, with the goal of improving the resilience and sustainability of economic systems under climate stress.
 
-My work combines **applied econometrics, optimization modeling, and integrated environmental–economic assessment** to analyze how environmental risks propagate through markets and supply chains. I study how climate variability, extreme events, and technological transitions influence production systems, resource use, and market outcomes.
+My work combines applied econometrics, optimization modeling, and integrated environmental–economic assessment to analyze how environmental risks propagate through markets and supply chains. I study how climate variability, extreme events, and technological transitions influence production systems, resource use, and market outcomes.
 
-My research agenda focuses on two main areas: **(1) climate shocks and economic resilience in agricultural and energy systems, and (2) environmental and economic evaluation of emerging low-carbon technologies and sustainable production systems.**
+My research agenda focuses on two main areas: (1) climate shocks and economic resilience in agricultural and energy systems, and (2) environmental and economic evaluation of emerging low-carbon technologies and sustainable production systems.
 
 
 ## Research Interests
 
-  - Climate Change Impacts on Agriculture
-  - Agricultural and Energy Market Modeling
-  - Climate Risk and Economic Resilience
-  - Low-Carbon Technologies and Bioeconomy
-  - Applied Econometrics
-  - Techno-Economic and Life Cycle Assessment
+  - [Climate Change Impacts on Agriculture](publications/#climate)
+  - [Agricultural and Energy Market Modeling](publications/#energy)
+  - [Climate Risk and Economic Resilience](publications/#climate)
+  - [Low-Carbon Technologies and Bioeconomy](publications/#bioeconomy)
+  - [Applied Econometrics](publications/#climate)
+  - [Techno-Economic and Life Cycle Assessment](publications/#bioeconomy)
 

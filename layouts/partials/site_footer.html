@@ -1,1 +1,147 @@
+<footer class="site-foot">© 2026 Yayun (Birdy) Chen · Last updated October 2026</footer>
 
+<!-- BirdyQ: static Q&A helper. No AI; answers come from the pool below. -->
+<button id="bq-open" aria-label="Open BirdyQ">BirdyQ</button>
+<div id="bq-panel" role="dialog" aria-label="BirdyQ" hidden>
+  <div class="bq-top"><strong>BirdyQ</strong><span>Quick answers about Birdy's work</span><button id="bq-close" aria-label="Close">×</button></div>
+  <div id="bq-log"></div>
+  <div id="bq-chips"></div>
+  <form id="bq-collab" hidden>
+    <div class="bq-a">Interested in collaborating? Leave a short message and Birdy will get back to you.</div>
+    <input id="bc-name" type="text" placeholder="Your name" required>
+    <input id="bc-mail" type="email" placeholder="Your email" required>
+    <textarea id="bc-msg" rows="4" placeholder="Your message" required></textarea>
+    <input id="bc-hp" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;">
+    <button type="submit">Send message</button>
+  </form>
+  <form id="bq-form"><input id="bq-in" type="text" placeholder="Type a question..." autocomplete="off"><button type="submit">Ask</button></form>
+</div>
+
+<style>
+.site-foot{ text-align:center; font-size:.8em; color:#94a3b8; padding:28px 0 36px; }
+#bq-open{ position:fixed !important; right:22px; bottom:22px; z-index:1000; background:#2563eb; color:#fff; border:none; border-radius:999px; padding:12px 22px; font-size:17px; font-weight:600; box-shadow:0 6px 20px rgba(0,0,0,.35); cursor:pointer; }
+#bq-open:hover{ background:#1d4ed8; }
+#bq-panel{ position:fixed !important; right:22px; bottom:80px; z-index:1000; width:min(430px,calc(100vw - 32px)); max-height:min(560px,calc(100vh - 110px)); display:flex; flex-direction:column; background:#17191e; color:#e2e8f0; border:1px solid #2a2d34; border-radius:14px; box-shadow:0 12px 32px rgba(0,0,0,.45); font-size:16px; line-height:1.55; }
+#bq-panel[hidden]{ display:none; }
+.bq-top{ display:flex; align-items:baseline; gap:8px; padding:12px 14px; border-bottom:1px solid #2a2d34; }
+.bq-top span{ color:#94a3b8; font-size:14px; flex:1; }
+#bq-close{ background:none; border:none; color:#94a3b8; font-size:20px; cursor:pointer; line-height:1; }
+#bq-log{ padding:12px 14px; overflow-y:auto; flex:1; }
+.bq-q{ text-align:right; margin:8px 0 4px; } .bq-q span{ display:inline-block; background:#2563eb; color:#fff; padding:6px 10px; border-radius:12px 12px 2px 12px; }
+.bq-a{ background:#1f2937; padding:8px 11px; border-radius:12px 12px 12px 2px; margin:4px 0 8px; text-align:left; }
+.bq-a a{ color:#93c5fd; }
+#bq-chips{ display:flex; flex-wrap:wrap; gap:6px; padding:0 14px 10px; }
+#bq-chips button{ background:transparent; color:#cbd5e1; border:1px solid #3b4250; border-radius:999px; padding:5px 12px; font-size:14.5px; cursor:pointer; }
+#bq-chips button:hover{ border-color:#60a5fa; color:#fff; }
+#bq-form{ display:flex; gap:6px; padding:10px 14px 14px; border-top:1px solid #2a2d34; }
+#bq-in{ flex:1; background:#0e0f12; color:#e2e8f0; border:1px solid #3b4250; border-radius:8px; padding:8px 11px; font-size:16px; }
+#bq-chips button.bq-collab-chip{ border-color:#2563eb; color:#fff; background:#1e3a8a; }
+#bq-collab{ display:flex; flex-direction:column; gap:6px; padding:0 14px 12px; }
+#bq-collab[hidden]{ display:none; }
+#bq-collab input, #bq-collab textarea{ background:#0e0f12; color:#e2e8f0; border:1px solid #3b4250; border-radius:8px; padding:8px 11px; font-size:16px; font-family:inherit; }
+#bq-collab button{ background:#2563eb; color:#fff; border:none; border-radius:8px; padding:8px 12px; cursor:pointer; }
+#bq-form button{ background:#2563eb; color:#fff; border:none; border-radius:8px; padding:7px 12px; cursor:pointer; }
+</style>
+
+<script>
+(function () {
+  var EMAIL = "birdy@tamu.edu";
+  var POOL = [
+    { q: "What does Birdy research?",
+      k: ["research","study","work","topic","area","focus","interest"],
+      a: "Birdy is an applied agricultural and environmental economist. Her research has two strands: (1) how climate shocks and environmental change affect agricultural and energy markets, and (2) the economic and environmental evaluation of low-carbon technologies and bio-based products. See <a href='/publications/'>Publications</a>." },
+    { q: "What methods does she use?",
+      k: ["method","econometric","model","optimization","tea","lca","life cycle","techno","tool","skill","database","platform","data"],
+      a: "Applied econometrics, price-endogenous market and sector models, and techno-economic analysis and life cycle assessment (TEA/LCA). She also builds research databases and designs interactive platforms for target customers. She works in R, Python, Stata, and GAMS." },
+    { q: "Key publications?",
+      k: ["paper","publication","publish","journal","nature","article"],
+      a: "Recent work includes first-authored papers in <em>Environmental Research Letters</em> and <em>ACS Sustainable Chemistry &amp; Engineering</em>, and coauthored papers in <em>One Earth</em>, <em>Matter</em>, and <em>Joule</em>. Full list: <a href='/publications/'>Publications</a>." },
+    { q: "What has she taught?",
+      k: ["teach","course","class","lecture","instructor"],
+      a: "Invited lecturer in Green Engineering (University of Missouri, 2026); co-designer and instructor of the Energy, Policy and Environment course (Texas A&amp;M Energy Institute and KAPSARC, 2023); lab instructor for Applied Mathematical Programming (Ph.D. level, Texas A&amp;M). Details: <a href='/teaching/'>Teaching &amp; Mentoring</a>." },
+    { q: "Does she mentor students?",
+      k: ["mentor","student","advis","supervis","reu","undergrad"],
+      a: "Yes. She mentors graduate students and research staff at Texas A&amp;M and undergraduate researchers in the CURB REU summer program. See <a href='/teaching/'>Teaching &amp; Mentoring</a>." },
+    { q: "Research funding?",
+      k: ["fund","grant","project","pi","usda","nsf"],
+      a: "She is Co-PI on a $2.5M USDA Foreign Agricultural Service project on climate change and global agriculture and PI on an NSF CURB Engineering Research Center trainee grant. Her <a href='/uploads/CV.pdf'>CV</a> lists the details." },
+    { q: "Where is her CV?",
+      k: ["cv","resume","vita"],
+      a: "Download it here: <a href='/uploads/CV.pdf'>CV (PDF)</a>." },
+    { q: "How can I contact her?",
+      k: ["contact","email","reach","collaborat","talk","meet"],
+      a: "Email Birdy at <a href='mailto:" + EMAIL + "'>" + EMAIL + "</a>." }
+  ];
+  var FALLBACK = "I don't have an answer for that. Please email Birdy at <a href='mailto:" + EMAIL + "'>" + EMAIL + "</a>.";
+
+  var openB = document.getElementById("bq-open"), panel = document.getElementById("bq-panel"),
+      log = document.getElementById("bq-log"), chips = document.getElementById("bq-chips"),
+      form = document.getElementById("bq-form"), input = document.getElementById("bq-in");
+  // Attach to <body> so position:fixed is relative to the screen, not the footer wrapper
+  document.body.appendChild(openB); document.body.appendChild(panel);
+
+  function say(q, a) {
+    var d = document.createElement("div"); d.className = "bq-q";
+    var s = document.createElement("span"); s.textContent = q; d.appendChild(s); log.appendChild(d);
+    var r = document.createElement("div"); r.className = "bq-a"; r.innerHTML = a; log.appendChild(r);
+    log.scrollTop = log.scrollHeight;
+  }
+  function match(text) {
+    var t = text.toLowerCase(), best = null, score = 0;
+    POOL.forEach(function (p) {
+      var n = p.k.filter(function (k) { return t.indexOf(k) !== -1; }).length;
+      if (n > score) { score = n; best = p; }
+    });
+    return best ? best.a : FALLBACK;
+  }
+  POOL.forEach(function (p) {
+    var b = document.createElement("button"); b.type = "button"; b.textContent = p.q;
+    b.onclick = function () { say(p.q, p.a); }; chips.appendChild(b);
+  });
+  var collab = document.getElementById("bq-collab");
+  var cb = document.createElement("button"); cb.type = "button"; cb.className = "bq-collab-chip";
+  cb.textContent = "Collaboration opportunity";
+  cb.onclick = function () { collab.hidden = !collab.hidden; if (!collab.hidden) document.getElementById("bc-name").focus(); };
+  chips.insertBefore(cb, chips.firstChild);
+  function note(msg) {
+    var r = document.createElement("div"); r.className = "bq-a"; r.innerHTML = msg;
+    log.appendChild(r); log.scrollTop = log.scrollHeight;
+  }
+  collab.onsubmit = function (e) {
+    e.preventDefault();
+    if (document.getElementById("bc-hp").value) return;  // honeypot: bots fill this
+    var btn = collab.querySelector("button[type=submit]"); btn.disabled = true; btn.textContent = "Sending...";
+    var data = {
+      name: document.getElementById("bc-name").value.trim(),
+      email: document.getElementById("bc-mail").value.trim(),
+      message: document.getElementById("bc-msg").value.trim(),
+      _subject: "Collaboration opportunity (via yayunchen.com)",
+      _template: "table"
+    };
+    fetch("https://formsubmit.co/ajax/" + EMAIL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify(data)
+    }).then(function (r) { return r.json(); }).then(function (j) {
+      if (String(j.success) !== "true") throw new Error("send failed");
+      collab.reset(); collab.hidden = true;
+      note("Thanks! Your message was sent. Birdy will get back to you.");
+    }).catch(function () {
+      note("Sorry, the message could not be sent. Please email Birdy at <a href='mailto:" + EMAIL + "'>" + EMAIL + "</a>.");
+    }).then(function () { btn.disabled = false; btn.textContent = "Send message"; });
+  };
+  openB.onclick = function () {
+    panel.hidden = !panel.hidden;
+    if (!panel.hidden && !log.childNodes.length) {
+      var r = document.createElement("div"); r.className = "bq-a";
+      r.innerHTML = "Hi! Pick a question below or type your own. Anything I can't answer goes to Birdy by email.";
+      log.appendChild(r);
+    }
+  };
+  document.getElementById("bq-close").onclick = function () { panel.hidden = true; };
+  form.onsubmit = function (e) {
+    e.preventDefault(); var q = input.value.trim(); if (!q) return;
+    say(q, match(q)); input.value = "";
+  };
+})();
+</script>

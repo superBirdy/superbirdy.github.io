@@ -191,3 +191,22 @@ FORCE HugoBlox Biography Layout Override
 .wg-resume-biography-3 .container {
   max-width: 1200px !important;
 }
+
+/* =====================================================
+   News (home page): one featured item + archive
+===================================================== */
+.news-feature, .news-archive { max-width:760px; margin:0 auto; text-align:left; }
+.news-feature { display:flex; gap:22px; align-items:center; }
+.news-feature img { width:240px; flex:none; border-radius:10px; margin:0 !important; }
+@media (max-width:640px){ .news-feature { flex-direction:column; } .news-feature img { width:100%; } }
+.news-date { font-size:.72em; text-transform:uppercase; letter-spacing:.08em; color:#64748b; margin-right:12px; }
+.news-head { font-weight:600; margin:2px 0 4px; color:#0f172a; }
+.news-feature p { margin:0; color:#334155; text-align:left !important; }
+.news-archive { margin-top:22px; }
+.news-archive summary { cursor:pointer; color:#64748b; font-size:.85em; letter-spacing:.04em; }
+.news-archive ul { list-style:none; padding:0; margin:10px 0 0; }
+.news-archive li { font-size:.85em; color:#334155; padding:6px 0; border-top:1px solid #e2e8f0; text-align:left; }
+html.dark .news-date, html.dark .news-archive summary { color:#94a3b8; }
+html.dark .news-head { color:#f1f5f9; }
+html.dark .news-feature p, html.dark .news-archive li { color:#cbd5e1; }
+html.dark .news-archive li { border-top-color:#2a2d34; }
