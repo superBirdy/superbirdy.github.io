@@ -210,3 +210,9 @@ html.dark .news-date, html.dark .news-archive summary { color:#94a3b8; }
 html.dark .news-head { color:#f1f5f9; }
 html.dark .news-feature p, html.dark .news-archive li { color:#cbd5e1; }
 html.dark .news-archive li { border-top-color:#2a2d34; }
+
+/* =====================================================
+   Bio text size (match the News text)
+===================================================== */
+.bio-text p, .bio-text li { font-size:20px !important; line-height:1.75 !important; }
+.bio-text h2 { font-size:1.6em !important; }

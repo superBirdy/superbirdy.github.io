@@ -47,7 +47,7 @@ profiles:
 ## About Me
 
 
-I am an **applied agricultural and environmental economist** and Associate Research Scientist in the Department of Agricultural Economics at Texas A&M University. My research examines how climate shocks, environmental change, and technological innovation affect agricultural and energy systems, with the goal of improving the resilience and sustainability of economic systems under climate stress.
+I am an **applied economist working on agriculture, energy, and the environment** and an Associate Research Scientist in the Department of Agricultural Economics at Texas A&M University. My research examines how climate shocks, environmental change, and technological innovation affect agricultural and energy systems, with the goal of improving the resilience and sustainability of economic systems under climate stress.
 
 My work combines applied econometrics, optimization modeling, and integrated environmental–economic assessment to analyze how environmental risks propagate through markets and supply chains. I study how climate variability, extreme events, and technological transitions influence production systems, resource use, and market outcomes.
 
