@@ -68,6 +68,12 @@
     { q: "Where is her CV?",
       k: ["cv","resume","vita"],
       a: "Download it here: <a href='/uploads/CV.pdf'>CV (PDF)</a>." },
+    { q: "What is her dog's name?", hide: true,
+      k: ["dog","pet","taotao","puppy","golden","retriever"],
+      a: "Birdy's dog is <strong>Taotao</strong>, a golden retriever. You can meet Taotao in the <a href='/gallery/'>Gallery</a>." },
+    { q: "What is her favorite food?", hide: true,
+      k: ["food","eat","cuisine","dish","restaurant","snack","yummy"],
+      a: "Anything with good taste. Birdy loves yummy food!" },
     { q: "How can I contact her?",
       k: ["contact","email","reach","collaborat","talk","meet"],
       a: "Email Birdy at <a href='mailto:" + EMAIL + "'>" + EMAIL + "</a>." }
@@ -95,6 +101,7 @@
     return best ? best.a : FALLBACK;
   }
   POOL.forEach(function (p) {
+    if (p.hide) return;  // answered when typed, but not shown as a button
     var b = document.createElement("button"); b.type = "button"; b.textContent = p.q;
     b.onclick = function () { say(p.q, p.a); }; chips.appendChild(b);
   });
