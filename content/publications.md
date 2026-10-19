@@ -23,7 +23,7 @@ sections:
       text: |-
         *How climate shocks and environmental change propagate through agricultural and energy markets, and how producers and firms adjust.*
 
-        - **Chen, Y.**, L.C. Zhao, C.J. Fei, B.A. McCarl, X. Wang, M.Q. Liu, D.D. Breshears, X. Feng, E. Baldwin, H. Cheng, J.J. Derbridge, J.D. Golding, A.M. Lien, L. López-Hoffman, D.M. McLaughlin, A.L.S. Swann, and J.R. Soto. "Agricultural Economic Responses to Ecoclimate Teleconnections Induced by Forest Loss." *Nature Communications*, under final editorial review.
+        - **Chen, Y.**, L.C. Zhao, C.J. Fei, B.A. McCarl, X. Wang, M.Q. Liu, D.D. Breshears, X. Feng, E. Baldwin, H. Cheng, J.J. Derbridge, J.D. Golding, A.M. Lien, L. López-Hoffman, D.M. McLaughlin, A.L.S. Swann, and J.R. Soto. "Agricultural Economic Responses to Ecoclimate Teleconnections Induced by Forest Loss." *Nature Communications*, accepted.
         - **Chen, Y.**, X. Deng, C. Fei, B.A. McCarl, and Y. Xu. 2025. "Forecast-Based Disruptions in the Energy Sector: Economic Impacts of Anticipatory Hurricane Responses in U.S. Gulf Coast Refineries." *Environmental Research Letters*, 20, 114025. [DOI](https://doi.org/10.1088/1748-9326/ae0e3a)
 
   - block: markdown
