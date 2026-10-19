@@ -24,11 +24,11 @@ sections:
       title: "News"
       text: |-
         <div class="news-feature">
-          <img src="uploads/news/forest_loss_soybean_yield.jpg" alt="Map of U.S. soybean yield change when forests are lost across all U.S. forest regions: declines across the South and East, small gains in parts of the Plains">
+          <a href="uploads/news/forest_loss_fig1_corn.jpg"><img src="uploads/news/forest_loss_fig1_corn.jpg" alt="Figure 1: maps of U.S. dryland corn yield change under forest loss in each of 14 NEON regions"></a>
           <div>
             <div class="news-date">Oct 2026</div>
-            <div class="news-head">Accepted in <em>Nature Communications</em> (co-first author)</div>
-            <p>Forest loss can reshape crop yields far away through ecoclimate teleconnections. Soybean yields fall, especially in the Southern Plains, while wheat gains there. Total crop output rises 1–3%, lowering prices: consumers gain, producers lose, and net farm welfare changes little.</p>
+            <div class="news-head">Accepted in <em>Nature Communications</em> (first author)</div>
+            <p>Forest loss shifts crop yields far away through ecoclimate teleconnections, raising U.S. crop output 1–3% and lowering prices.</p>
           </div>
         </div>
         <div class="news-feature">
