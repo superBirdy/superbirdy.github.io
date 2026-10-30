@@ -21,7 +21,7 @@ sections:
 
   - block: markdown
     content:
-      title: "News"
+      title: "Research Highlights"
       text: |-
         <div class="news-feature">
           <a href="uploads/news/forest_loss_fig1_corn.jpg"><img src="uploads/news/forest_loss_fig1_corn.jpg" alt="Figure 1: maps of U.S. dryland corn yield change under forest loss in each of 14 NEON regions"></a>
@@ -32,19 +32,22 @@ sections:
           </div>
         </div>
         <div class="news-feature">
-          <img src="uploads/news/co2_bioplastics_art.jpg" alt="Artwork: CO2 captured from industry becomes biodegradable bioplastic, protecting sea turtles from plastic waste">
+          <div class="news-img">
+            <a href="uploads/news/pfas_coating_art.jpg"><img class="wide" src="uploads/news/pfas_coating_art.jpg" alt="Artwork: PFAS-coated jacket and food box pollute a river and tap water; the same products with a lignin coating from a paper mill leave the river clean and break down in soil"></a>
+            <div class="news-credit">Designed by BC; rendered with ChatGPT</div>
+          </div>
           <div>
-            <div class="news-date">Featured</div>
-            <div class="news-head">Published in <em>ACS Sustainable Chemistry &amp; Engineering</em> (first author)</div>
-            <p>Turning captured CO<sub>2</sub> into biodegradable bioplastics. I estimated the social benefits of replacing fossil plastics by valuing the environmental damages avoided.</p>
+            <div class="news-date">Oct 2026</div>
+            <div class="news-head">Published in <em>Matter</em>: <a href="https://doi.org/10.1016/j.matt.2026.103068">a fluorine-free replacement for PFAS coatings</a></div>
+            <p>PFAS, the "forever chemicals" in water-repellent jackets and food packaging, never break down and are linked to cancer. Our team built a fluorine-free coating from paper-mill lignin that repels water just as well and breaks down in soil. As the team's economist, I valued the health damages PFAS shifts onto society: switching avoids up to $1.1 billion a year worldwide.</p>
           </div>
         </div>
         <details class="news-archive">
           <summary>Archive</summary>
           <ul>
           <li><span class="news-date">Oct 2026</span>Accepted in <em>One Earth</em>: protein production from CO<sub>2</sub> by electro-biomanufacturing. I co-led the techno-economic and life cycle assessment.</li>
-          <li><span class="news-date">2026</span>Accepted in <em>Matter</em>: fluorine-free superhydrophobic coatings. I evaluated the human-health benefits of replacing PFAS-based coatings.</li>
           <li><span class="news-date">2026</span>Published in <em>Matter</em>: renewable carbon fiber. I co-led the techno-economic and life cycle assessment.</li>
+          <li><span class="news-date">2025</span>Published in <em>ACS Sustainable Chemistry &amp; Engineering</em> (first author): turning captured CO<sub>2</sub> into biodegradable bioplastics. I estimated the social benefits of replacing fossil plastics by valuing the environmental damages avoided.</li>
           <li><span class="news-date">2025</span>Published in <em>Environmental Research Letters</em> (first author): refinery output and profit losses from hurricane forecasts.</li>
           </ul>
         </details>

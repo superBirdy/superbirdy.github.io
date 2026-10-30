@@ -46,20 +46,13 @@ profiles:
 
 ## About Me
 
+I am an **applied economist working on energy, the environment, and agriculture**, and an Associate Research Scientist in the Department of Agricultural Economics at Texas A&M University, where I received my Ph.D. in Agricultural Economics in 2024.
 
-I am an **applied economist working on agriculture, energy, and the environment** and an Associate Research Scientist in the Department of Agricultural Economics at Texas A&M University. My research examines how climate shocks, environmental change, and technological innovation affect agricultural and energy systems, with the goal of improving the resilience and sustainability of economic systems under climate stress.
-
-My work combines applied econometrics, optimization modeling, and integrated environmental–economic assessment to analyze how environmental risks propagate through markets and supply chains. I study how climate variability, extreme events, and technological transitions influence production systems, resource use, and market outcomes.
-
-My research agenda focuses on two main areas: (1) climate shocks and economic resilience in agricultural and energy systems, and (2) environmental and economic evaluation of emerging low-carbon technologies and sustainable production systems.
-
+My research asks how climate shocks and technological change move through energy and agricultural markets. I show, for example, that forest loss shifts crop yields far away through ecoclimate teleconnections, raising U.S. crop output 1–3% and lowering prices (*Nature Communications*), and that refineries' responses to hurricane forecasts carry their own output and profit costs (*Environmental Research Letters*). A second line of work values the environmental and health benefits of emerging low-carbon technologies. My methods combine applied econometrics, optimization-based market modeling, and life cycle and techno-economic assessment.
 
 ## Research Interests
 
-  - [Climate Change Impacts on Agriculture](publications/#climate)
-  - [Agricultural and Energy Market Modeling](publications/#energy)
-  - [Climate Risk and Economic Resilience](publications/#climate)
-  - [Low-Carbon Technologies and Bioeconomy](publications/#bioeconomy)
-  - [Applied Econometrics](publications/#climate)
-  - [Techno-Economic and Life Cycle Assessment](publications/#bioeconomy)
-
+  - [Environmental and Energy Economics](publications/#energy)
+  - [Climate Risk and Resilience](publications/#climate)
+  - [Agricultural and Energy Markets](publications/#climate)
+  - [Low-Carbon Technologies and the Bioeconomy](publications/#bioeconomy)
