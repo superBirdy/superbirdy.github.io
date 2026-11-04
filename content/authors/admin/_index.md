@@ -46,7 +46,7 @@ profiles:
 
 ## About Me
 
-I am an **applied economist working on energy, the environment, and agriculture**, and an Associate Research Scientist in the Department of Agricultural Economics at Texas A&M University, where I received my Ph.D. in Agricultural Economics in 2024.
+I am an **applied economist working on energy, the environment, agriculture, and policy**, and an Associate Research Scientist in the Department of Agricultural Economics at Texas A&M University, where I received my Ph.D. in Agricultural Economics in 2024.
 
 My research asks how climate shocks and technological change move through energy and agricultural markets. I show, for example, that forest loss shifts crop yields far away through ecoclimate teleconnections, raising U.S. crop output 1–3% and lowering prices (*Nature Communications*), and that refineries' responses to hurricane forecasts carry their own output and profit costs (*Environmental Research Letters*). A second line of work values the environmental and health benefits of emerging low-carbon technologies. My methods combine applied econometrics, optimization-based market modeling, and life cycle and techno-economic assessment.
 
@@ -55,4 +55,5 @@ My research asks how climate shocks and technological change move through energy
   - [Environmental and Energy Economics](publications/#energy)
   - [Climate Risk and Resilience](publications/#climate)
   - [Agricultural and Energy Markets](publications/#climate)
+  - [Energy Transition, Decarbonization, and Environmental Policy Design](publications/#energy)
   - [Low-Carbon Technologies and the Bioeconomy](publications/#bioeconomy)
