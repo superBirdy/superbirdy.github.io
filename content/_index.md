@@ -33,6 +33,17 @@ sections:
         </div>
         <div class="news-feature">
           <div class="news-img">
+            <a href="uploads/news/co2_protein_fig1.jpg"><img class="wide" src="uploads/news/co2_protein_fig1.jpg" alt="Figure 1: cattle farming, soybean agriculture, and electro-biomanufacturing of protein compared by land occupation, energy efficiency, and production cycle"></a>
+            <div class="news-credit">Figure 1, Wei et al. (2026), <em>One Earth</em>, CC BY 4.0</div>
+          </div>
+          <div>
+            <div class="news-date">Nov 2026</div>
+            <div class="news-head">Published in <em>One Earth</em>: <a href="https://doi.org/10.1016/j.oneear.2026.101907">protein from CO<sub>2</sub> without farmland</a></div>
+            <p>Most of our protein comes from plants, eaten directly or fed to livestock, and only a small share of the sunlight crops capture ends up as food. Our team turned CO<sub>2</sub> and renewable electricity into protein-rich fungal biomass in days rather than months, using far less land and water than soybeans or beef. As the team's economist, I co-led the techno-economic and life cycle assessment.</p>
+          </div>
+        </div>
+        <div class="news-feature">
+          <div class="news-img">
             <a href="uploads/news/pfas_coating_art.jpg"><img class="wide" src="uploads/news/pfas_coating_art.jpg" alt="Artwork: PFAS-coated jacket and food box pollute a river and tap water; the same products with a lignin coating from a paper mill leave the river clean and break down in soil"></a>
             <div class="news-credit">Designed by BC; rendered with ChatGPT</div>
           </div>
@@ -45,7 +56,6 @@ sections:
         <details class="news-archive">
           <summary>Archive</summary>
           <ul>
-          <li><span class="news-date">Oct 2026</span>Accepted in <em>One Earth</em>: protein production from CO<sub>2</sub> by electro-biomanufacturing. I co-led the techno-economic and life cycle assessment.</li>
           <li><span class="news-date">2026</span>Published in <em>Matter</em>: renewable carbon fiber. I co-led the techno-economic and life cycle assessment.</li>
           <li><span class="news-date">2025</span>Published in <em>ACS Sustainable Chemistry &amp; Engineering</em> (first author): turning captured CO<sub>2</sub> into biodegradable bioplastics. I estimated the social benefits of replacing fossil plastics by valuing the environmental damages avoided.</li>
           <li><span class="news-date">2025</span>Published in <em>Environmental Research Letters</em> (first author): refinery output and profit losses from hurricane forecasts.</li>
