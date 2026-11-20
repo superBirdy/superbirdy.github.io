@@ -44,7 +44,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Yayun (Birdy) Chen · Last updated October 2026'
+    notice: '© {year} Yayun (Birdy) Chen · Last updated November 2026'
     license:
       enable: false
       allow_derivatives: false
