@@ -56,9 +56,9 @@ sections:
         <details class="news-archive">
           <summary>Archive</summary>
           <ul>
-          <li><span class="news-date">2026</span>Published in <em>Matter</em>: renewable carbon fiber. I co-led the techno-economic and life cycle assessment.</li>
-          <li><span class="news-date">2025</span>Published in <em>ACS Sustainable Chemistry &amp; Engineering</em> (first author): turning captured CO<sub>2</sub> into biodegradable bioplastics. I estimated the social benefits of replacing fossil plastics by valuing the environmental damages avoided.</li>
-          <li><span class="news-date">2025</span>Published in <em>Environmental Research Letters</em> (first author): refinery output and profit losses from hurricane forecasts.</li>
+          <li><span class="news-date">2026</span>Published in <em>Matter</em>: <a href="https://doi.org/10.1016/j.matt.2026.103001">renewable carbon fiber</a>. I co-led the techno-economic and life cycle assessment.</li>
+          <li><span class="news-date">2025</span>Published in <em>ACS Sustainable Chemistry &amp; Engineering</em> (first author): <a href="https://doi.org/10.1021/acssuschemeng.5c02891">turning captured CO<sub>2</sub> into biodegradable bioplastics</a>. I estimated the social benefits of replacing fossil plastics by valuing the environmental damages avoided.</li>
+          <li><span class="news-date">2025</span>Published in <em>Environmental Research Letters</em> (first author): <a href="https://doi.org/10.1088/1748-9326/ae0e3a">refinery output and profit losses from hurricane forecasts</a>.</li>
           </ul>
         </details>
     
