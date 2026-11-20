@@ -26,8 +26,8 @@ sections:
         <div class="news-feature">
           <a href="uploads/news/forest_loss_fig1_corn.jpg"><img src="uploads/news/forest_loss_fig1_corn.jpg" alt="Figure 1: maps of U.S. dryland corn yield change under forest loss in each of 14 NEON regions"></a>
           <div>
-            <div class="news-date">Oct 2026</div>
-            <div class="news-head">Accepted in <em>Nature Communications</em> (first author)</div>
+            <div class="news-date">Nov 2026</div>
+            <div class="news-head">Published in <em>Nature Communications</em> (first author): <a href="https://doi.org/10.1038/s41467-026-79375-y">forest loss and U.S. agriculture</a></div>
             <p>Forest loss shifts crop yields far away through ecoclimate teleconnections, raising U.S. crop output 1–3% and lowering prices.</p>
           </div>
         </div>
